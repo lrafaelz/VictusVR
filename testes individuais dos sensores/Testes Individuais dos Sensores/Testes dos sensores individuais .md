@@ -2,43 +2,49 @@
 
 # ❤️ Pulso Amped Sensor
 
-- 📚
+
+<details>
+	<summary>📚</summary>
+	[Pulse Sensor Amped Getting Started Guide](https://www.generationrobots.com/media/DetecteurDePoulsAmplifie/PulseSensorAmpedGettingStartedGuide.pdf)
+</details>
     
-    [Pulse Sensor Amped Getting Started Guide](https://www.generationrobots.com/media/DetecteurDePoulsAmplifie/PulseSensorAmpedGettingStartedGuide.pdf)
+    
     
 
 ### Para melhor ligar ao corpo é necessário:
-
-- Velcro para prender o sensor no dedo conforme as imagens abaixo
-    - 📷
-        
-        
-        ![Untitled](Testes%20dos%20sensores%20individuais%201a34425ee6f248f3ab6dcc903598756c/Untitled.png)
-        
-        ![Untitled](Testes%20dos%20sensores%20individuais%201a34425ee6f248f3ab6dcc903598756c/Untitled%201.png)
-        
-        ![Untitled](Testes%20dos%20sensores%20individuais%201a34425ee6f248f3ab6dcc903598756c/Untitled%202.png)
-        
-- Adesivos transparentes para proteger o sensor da oleosidade dos dedos
-    - 📷
-        
-        ![Untitled](Testes%20dos%20sensores%20individuais%201a34425ee6f248f3ab6dcc903598756c/Untitled%203.png)
+<details>
+	<summary>Velcro para prender o sensor no dedo conforme as imagens abaixo</summary>
+	<div align="center" flexDirection="row">
+		<img src="./MD file images/Untitled.png" with="200px" height="200px">
+		<img src="./MD file images/Untitled%201.png" with="200px" height="220px">
+	</div>
+	<div align="center" >
+		<img src="./MD file images/Untitled%202.png" with="200px" height="200px"> 
+	</div>
+</details>
+<details>
+	<summary>Adesivos transparentes para proteger o sensor da oleosidade dos dedos</summary>
+		<img src="./MD file images/Untitled%203.png" with="200px" height="200px"> 
+	</details>
         
 
 ### Conexão dos fios:
-
-- 📷
+<details>
+	<summary>📷</summary>
+	<div align="center">
+		<img src="./MD file images/Untitled%204.png" with="300px" height="300px">
+	</div>
+</details>
     
-    ![Untitled](Testes%20dos%20sensores%20individuais%201a34425ee6f248f3ab6dcc903598756c/Untitled%204.png)
-    
+Fio amarelo/**preto** -> Analogico
 
-Fio amarelo/**preto** Analogico
+Fio azul/vermelho -> GND
 
-Fio azul/vermelho GND
+Fio verde/marrom -> 5V
 
-Fio verde/marrom 5V
+<details>
+	<summary>Código:</summary>
 
-### Código:
 
 ```cpp
 /******Necessário instalar biblioteca PulseSensor Playground******
@@ -166,28 +172,31 @@ void loop() {
   }
 }
 ```
+</details>
 
 ---
 
 # 💪🏼 EMG
-
-- 📚
-    
-    [Myoware Muscle Sensor Interfacing with Arduino](https://theorycircuit.com/myoware-muscle-sensor-interfacing-arduino/)
-    
+<details>
+	<summary>📚</summary>
+	[Myoware Muscle Sensor Interfacing with Arduino](https://theorycircuit.com/myoware-muscle-sensor-interfacing-arduino/)
+</details>
 
 ### Para ligar o sensor ao corpo é necessário:
 
 - Posicionar no musculo de forma que os sensores fiquem no meio do musculo que se deseja coletar a força realizada conforme demonstrado na figura 1.
 - Posicionar o aterramento longe do musculo a ser analisado.
-
-![Figura 1 - posição do sensor](Testes%20dos%20sensores%20individuais%201a34425ee6f248f3ab6dcc903598756c/Untitled%205.png)
-
-Figura 1 - posição do sensor
-
-![Figura 2 - Sensor de Eletromiografia](Testes%20dos%20sensores%20individuais%201a34425ee6f248f3ab6dcc903598756c/Sensor_EMG.png)
-
-Figura 2 - Sensor de Eletromiografia
+	
+<div align="center" flexDirection="row" justifyContent="space-between">
+	<p>
+		<img src="./MD file images/Untitled%205.png" with="200px" height="200px"> 
+		<figcaption>Figura 1 - posição do sensor</figcaption>
+	</p>
+	<p>
+	<img src="./MD file images/Sensor_EMG.png" with="200px" height="200px"> 
+	<figcaption>Figura 2 - Sensor de Eletromiografia</figcaption
+	</p>
+</div>
 
 ### Conexão dos fios:
 
@@ -196,8 +205,9 @@ Fio azul Analogico
 Fio verde GND
 
 Fio vermelho 5V
-
-### Código:
+		
+<details>
+	<summary>Código:</summary>
 
 ```cpp
 const int analogInPin = A0;  // Analog input pin that the potentiometer is attached to
@@ -231,5 +241,5 @@ void loop() {
 }
 // code from Arduino IDE: File > Examples > 03.Analogic > AnalogicInOutSerial
 ```
-
+</details>
 ---
