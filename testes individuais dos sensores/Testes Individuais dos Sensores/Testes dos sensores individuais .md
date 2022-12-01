@@ -191,13 +191,10 @@ void loop() {
 	<p>
 		<img src="./MD file images/Untitled%205.png" with="200px" height="200px"> 
 		<figcaption>Figura 1 - posição do sensor</figcaption>
-	</p>
-	<p>
-	<img src="./MD file images/Sensor_EMG.png" with="200px" height="200px"> 
-	<figcaption>Figura 2 - Sensor de Eletromiografia</figcaption
+      <img src="./MD file images/Sensor_EMG.png" with="200px" height="200px"> 
+      <figcaption>Figura 2 - Sensor de Eletromiografia</figcaption
 	</p>
 </div>
-
 ### Conexão dos fios:
 
 Fio azul Analogico
@@ -205,7 +202,6 @@ Fio azul Analogico
 Fio verde GND
 
 Fio vermelho 5V
-		
 <details>
 	<summary>Código:</summary>
 

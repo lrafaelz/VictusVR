@@ -26,7 +26,7 @@
    // --- Configurações Iniciais ---
    void setup()
    {
-   Serial.begin(9600);
+   Serial.begin(1200);
    pinMode( 9, OUTPUT);   //saída PWM pino 3
    pinMode(10, OUTPUT);   //saída PWM pino 11
    
