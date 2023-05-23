@@ -261,11 +261,12 @@ namespace BikeSystem.controller
       }
     }
 
-    public void OnTriggerEnter(Collider objColisao){
-      if(objColisao.tag.Equals("wayPoint")){
-        Debug.Log("Houve colisão: " + objColisao.gameObject.name);
-      }
-    }
+    // public void OnTriggerEnter(Collider objColisao){
+    //   if(objColisao.tag.Equals("wayPoint")){
+    //     Debug.Log("Houve colisão: " + objColisao.gameObject.name);
+    //   }
+    // }
+
   }
 }
 
