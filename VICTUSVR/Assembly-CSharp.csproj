@@ -37,7 +37,6 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\BikeSystem\Scripts\PlayerInside.cs" />
-     <Compile Include="Assets\Script\SmoothCameraFlow.cs" />
      <Compile Include="Assets\Script\CameraCorrida.cs" />
      <Compile Include="Assets\BikeSystem\Scripts\DriverScript.cs" />
      <Compile Include="Assets\Script\waypoint.cs" />
@@ -48,14 +47,14 @@
      <Compile Include="Assets\BikeSystem\Scripts\AudioController.cs" />
      <Compile Include="Assets\BikeSystem\Scripts\ControlOfIn.cs" />
      <Compile Include="Assets\BikeSystem\Scripts\MotorcycleController.cs" />
+     <Compile Include="Assets\Script\WayPoints.cs" />
      <Compile Include="Assets\Script\rotacao.cs" />
      <Compile Include="Assets\BikeSystem\Scripts\PlayerCam.cs" />
      <Compile Include="Assets\Script\Barreira.cs" />
      <Compile Include="Assets\BikeSystem\Scripts\PlayerOut.cs" />
      <Compile Include="Assets\BikeSystem\Scripts\CameraController.cs" />
      <Compile Include="Assets\BikeSystem\Scripts\SelectControlle.cs" />
-     <Compile Include="Assets\Script\Checkpoints.cs" />
-     <Compile Include="Assets\Checkpoints.cs" />
+     <Compile Include="Assets\Script\TrackWaypoints.cs" />
      <None Include="Assets\EasyRoads3D\shaders\EasyRoads3D-Surface-Offset.shader" />
      <None Include="Assets\EasyRoads3D\SRP Support Packages\_Readme.txt" />
      <None Include="Assets\EasyRoads3D\Resources\custom prefabs\_custom prefabs.txt" />

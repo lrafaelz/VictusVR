@@ -13,7 +13,7 @@ public class Controle : MonoBehaviour {
 
 	public Text displayContagem, displayBatimentos, displayVelocidade, displayEmg, displayObjetivo;
 	public float tempoSegundos, tempoMinutos, tempo=0.0f;
-	public float fimDaPartida=4000;
+	public float fimDaPartida=0.0f;
 	public NavMeshAgent navmesh;
 	public GameObject player;
 	public Text tempoFim;
@@ -107,7 +107,7 @@ public class Controle : MonoBehaviour {
 	}
 
 	public void SetaTempo(){
-		if(Input.GetKeyDown(KeyCode.Return)){
+		if(Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter)){
 			fimDaPartida =60* float.Parse(tempoFim.text);
 			Time.timeScale = 1;
 			Debug.Log("passei pelo setar tempo\n");	
