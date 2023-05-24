@@ -38,7 +38,7 @@ public class Controle : MonoBehaviour {
 		IOThread.Start();
 		Time.timeScale = 0;
 		// serial.ReadTimeout = -1;
-		navmesh = player.GetComponent<NavMeshAgent> ();
+		// navmesh = player.GetComponent<NavMeshAgent> ();
 		//StartCoroutine (LerDadosDoSerial ());// começa o loop
 		displayVelocidade.text = "0";
 		displayBatimentos.text = " ";
@@ -70,6 +70,9 @@ public class Controle : MonoBehaviour {
 			displayVelocidade.text = velocidade.ToString ("00");
 			navmesh.speed = (float)(velocidade / 3.6);
 		}*/
+			//
+			// No arduino connected
+			// 
 			string[] valores = serial.ReadLine().Split ('#'); // separador de valores
 			// Debug.Log("Valores" + "#"+valores[0] +"#"+ valores[1] +"#"+ valores[2] );
 			while(valores.Length < 3){ // to avoid errors
@@ -112,7 +115,7 @@ public class Controle : MonoBehaviour {
 			Time.timeScale = 1;
 			Debug.Log("passei pelo setar tempo\n");	
 			entrada.SetActive (false);
-			musica.Play ();
+			// musica.Play ();
 			bike.Play ();
 
 			

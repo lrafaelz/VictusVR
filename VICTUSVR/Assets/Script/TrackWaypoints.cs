@@ -1,9 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class TrackWaypoints : MonoBehaviour{
 
+    public event EventHandler OnPlayerCorrectWaypoint;
+    public event EventHandler OnPlayerWrongWaypoint;
     private List<Waypoints> waypointsList;
     private int nextWaypointIndex;
 
@@ -24,10 +27,20 @@ public class TrackWaypoints : MonoBehaviour{
         if(waypointsList.IndexOf(wayPoint) == nextWaypointIndex){
             // correct waypoint
             Debug.Log("Correct");
+            Waypoints correctWaypoint = waypointsList[nextWaypointIndex];
+            correctWaypoint.Hide();
+
             nextWaypointIndex = (nextWaypointIndex + 1) % waypointsList.Count;
+            OnPlayerCorrectWaypoint?.Invoke(this, EventArgs.Empty);
+
+
         } else{
             //wrong waypoint
             Debug.Log("Wrong");
+            OnPlayerWrongWaypoint?.Invoke(this, EventArgs.Empty);
+
+            Waypoints correctWaypoint = waypointsList[nextWaypointIndex];
+            correctWaypoint.Show();
         }
         // Debug.Log(wayPoint.transform.name);
     }

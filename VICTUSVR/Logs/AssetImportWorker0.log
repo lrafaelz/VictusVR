@@ -24,7 +24,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-33517
+35317
 Successfully changed project path to: /home/alunos/Documentos/Rafael/VictusVR/VICTUSVR
 /home/alunos/Documentos/Rafael/VictusVR/VICTUSVR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,11 +56,11 @@ Successfully changed project path to: /home/alunos/Documentos/Rafael/VictusVR/VI
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [139957789856640] Host "[IP] 10.3.160.158 [Port] 0 [Flags] 2 [Guid] 3927223228 [EditorId] 3927223228 [Version] 1048832 [Id] LinuxEditor(16,10.3.160.158) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [139937529422720] Host "[IP] 10.3.160.158 [Port] 0 [Flags] 2 [Guid] 895133129 [EditorId] 895133129 [Version] 1048832 [Id] LinuxEditor(16,10.3.160.158) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [139957789856640] Host "[IP] 10.3.160.158 [Port] 0 [Flags] 2 [Guid] 3927223228 [EditorId] 3927223228 [Version] 1048832 [Id] LinuxEditor(16,10.3.160.158) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [139937529422720] Host "[IP] 10.3.160.158 [Port] 0 [Flags] 2 [Guid] 895133129 [EditorId] 895133129 [Version] 1048832 [Id] LinuxEditor(16,10.3.160.158) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 2426,88 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 101,04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path /home/alunos/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -76,51 +76,246 @@ int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program
 L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
 t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_t
 exture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -703881104
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -228641792
 Initialize mono
 Mono path[0] = '/home/alunos/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
 Mono path[1] = '/home/alunos/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/alunos/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56790
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/alunos/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/alunos/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/alunos/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,027870 seconds.
+Registered in 0,008748 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 93,28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 92,61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,468 seconds
+- Completed reload, in  0,646 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1469ms)
-		BeginReloadAssembly (684ms)
+	ReloadAssembly (646ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (580ms)
-			LoadAssemblies (711ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (477ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (122ms)
+			SetupTypeCache (109ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (306ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (282ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (93ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (133ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0,368883 seconds.
+Registered in 0,007554 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/alunos/Documentos/Rafael/VictusVR/VICTUSVR/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /home/alunos/Documentos/Rafael/VictusVR/VICTUSVR/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0,88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1,141 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1142ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (949ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (522ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (144ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0,95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 4094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (38,9 KB). Loaded Objects now: 4673.
+Memory consumption went from 161,9 MB to 161,9 MB.
+Total: 8,144547 ms (FindLiveObjects: 0,319172 ms CreateObjectMapping: 0,271466 ms MarkObjects: 7,287773 ms  DeleteObjects: 0,265123 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26385,024032 seconds.
+  path: Assets/Script/TrackWaypoints.cs
+  artifactKey: Guid(d4e3c74ed705571498f1d045febaa214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TrackWaypoints.cs using Guid(d4e3c74ed705571498f1d045febaa214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4501483f54ccfeb5fbdb19903e8d341') in 0,007857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000019 seconds.
+  path: Assets/Script/GerenciadordoGame.cs
+  artifactKey: Guid(74dd04a2b1197084fa823e9c3e31d5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/GerenciadordoGame.cs using Guid(74dd04a2b1197084fa823e9c3e31d5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb4ecd3fd3dec21b36990ccf495400b') in 0,000596 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,007197 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/alunos/Documentos/Rafael/VictusVR/VICTUSVR/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /home/alunos/Documentos/Rafael/VictusVR/VICTUSVR/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0,87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,173 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1173ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (941ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (504ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (151ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5,10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 4012 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (23,0 KB). Loaded Objects now: 4676.
+Memory consumption went from 153,4 MB to 153,4 MB.
+Total: 6,824935 ms (FindLiveObjects: 0,292597 ms CreateObjectMapping: 0,163727 ms MarkObjects: 6,330981 ms  DeleteObjects: 0,036444 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 283,205620 seconds.
+  path: Assets/Script/TrackWaypoints.cs
+  artifactKey: Guid(d4e3c74ed705571498f1d045febaa214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TrackWaypoints.cs using Guid(d4e3c74ed705571498f1d045febaa214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af437850647fb9f54e668c365add1b57') in 0,006410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 588,532617 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fe2dc2d2c3bff02cae83ba2e8fc02b') in 0,239478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000023 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e931e19e07412fef13e2f60e464f2a7') in 0,145802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14,507489 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(750ab0f8eba5c7f4e924a1ed1966429f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 2.asset using Guid(750ab0f8eba5c7f4e924a1ed1966429f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799ba27314d1337168c19af670510579') in 0,076858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48,321953 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(5afe50fe8fd894146a2345ae26da8f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(5afe50fe8fd894146a2345ae26da8f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Caught fatal signal - signo:11 code:1 errno:0 addr:0x8
+Obtained 38 stack frames.
+#0  0x007f45c1837520 in __sigaction
+#1  0x0055cff078bf37 in core::hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID, true>, core::hash_pair<core::hash<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID>, core::equal_pair<std::equal_to<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID> >::node* core::hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID, true>, core::hash_pair<core::hash<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID>, core::equal_pair<std::equal_to<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID> >::lookup<core::basic_string<char, core::StringStorageDefault<char> >, core::equal_pair<std::equal_to<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID> >(core::basic_string<char, core::StringStorageDefault<char> > const&, core::equal_pair<std::equal_to<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID> const&) const
+#2  0x0055cff07a675d in GuidReservations::Reserve(core::basic_string<char, core::StringStorageDefault<char> > const&, core::basic_string<char, core::StringStorageDefault<char> > const&)
+#3  0x0055cff07a663b in CreateAssetToGUIDMappingV2(core::basic_string_ref<char>, AssetDatabase::CaseSensitivityMode)
+#4  0x0055cff0726664 in AssetDatabase::CreateAssetToGUIDMapping(core::basic_string<char, core::StringStorageDefault<char> > const&, AssetDatabase::CaseSensitivityMode)
+#5  0x0055cfefaa716e in SplatDatabase::CreateTerrainLayerAsset(SplatPrototype const&)
+#6  0x0055cfefaa810d in SplatDatabase::ConvertSplatsToTerrainLayers()
+#7  0x0055cfefaa817d in SplatDatabase::AwakeFromLoad(AwakeFromLoadMode)
+#8  0x0055cfefad4730 in TerrainData::AwakeFromLoad(AwakeFromLoadMode)
+#9  0x0055cfef2de0ad in AwakeFromLoadQueue::InvokePersistentManagerAwake(AwakeFromLoadQueue::Item*, unsigned int, AwakeFromLoadMode, bool)
+#10 0x0055cfef2dd63d in AwakeFromLoadQueue::PersistentManagerAwakeFromLoad(ErrorsAndWarningsCapture*, bool)
+#11 0x0055cfef2b1acb in PersistentManager::IntegrateAllThreadedObjects()
+#12 0x0055cfef2b28cb in PersistentManager::LoadAndIntegrateAllPreallocatedObjects(PersistentManager::LockFlags)
+#13 0x0055cfef2b152c in PersistentManager::ReadObject(int, AwakeFromLoadMode)
+#14 0x0055cfee6b42b1 in PPtr<Object>::operator Object*() const
+#15 0x0055cff07085e6 in PreviewImporter::GenerateAssetData(AssetImportContext&)
+#16 0x0055cff074e165 in ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+#17 0x0055cff074d0ee in ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+#18 0x0055cff077817e in AssetImportWorker::Import(AssetResolver&, ImportAssetInputs const&, WorkerImportResponse&, IImportProgress*, bool*)
+#19 0x0055cff0822e56 in core::mutable_function<void ()>::DispatchT<IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::{lambda()#1}>::Dispatch()
+#20 0x0055cff0871164 in asio::detail::completion_handler<core::mutable_function<void ()>, asio::io_context::basic_executor_type<std::allocator<void>, 0u> >::do_complete(void*, asio::detail::scheduler_operation*, std::error_code const&, unsigned long)
+#21 0x0055cff08523b7 in asio::detail::scheduler::do_run_one(asio::detail::conditionally_enabled_mutex::scoped_lock&, asio::detail::scheduler_thread_info&, std::error_code const&)
+#22 0x0055cff0851eb1 in asio::detail::scheduler::run(std::error_code&)
+#23 0x0055cff085662a in asio::io_context::run()
+#24 0x0055cff08565c8 in IOService::Run(bool)
+#25 0x0055cff0810343 in AssetImportWorkerClient::Run()
+#26 0x0055cff07b0fbd in RunAssetImporterV2()
+#27 0x0055cff035fd87 in Application::InitializeProject()
+#28 0x0055cff040a07a in InitializeUnity(void*)
+#29 0x007f45c531c2a8 in g_main_context_check
+#30 0x007f45c531bc24 in g_main_context_dispatch
+#31 0x007f45c53706f8 in g_io_channel_new_file
+#32 0x007f45c531b293 in g_main_loop_run
+#33 0x007f45c201fcfd in gtk_main
+#34 0x0055cff040980c in main
+#35 0x007f45c181ed90 in __libc_init_first
+#36 0x007f45c181ee40 in __libc_start_main
+#37 0x0055cfee5bb029 in _start

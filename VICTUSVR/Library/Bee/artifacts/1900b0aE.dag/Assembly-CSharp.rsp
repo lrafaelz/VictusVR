@@ -389,6 +389,7 @@
 "Assets/Script/Waypoints.cs"
 "Assets/Script/rotacao.cs"
 "Assets/Script/waypoint.cs"
+"Assets/Script/wrongWaypointUI.cs"
 -langversion:9.0
 
 /deterministic

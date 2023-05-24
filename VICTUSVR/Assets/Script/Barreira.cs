@@ -32,7 +32,7 @@ public class Barreira : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		tempoObjetivo = 0;// tempo zerado no início
-		descObjetivo.text = " ";
+		// descObjetivo.text = " ";
 		i = 0;
 		j = 0;
 		pontos = 0;
@@ -46,12 +46,12 @@ public class Barreira : MonoBehaviour {
 		tempoObjetivo += Time.deltaTime;//soma cada segundo
 		if (tempoObjetivo > 30 && habilita_objetivo) {
 			CalculaObjetivo ();//quando ultrapassa 30segundo chama a função de calcular o objetivo
-			descObjetivo.text="Novo Objetivo!";
+			// descObjetivo.text="Novo Objetivo!";
 			tempoObjetivo = -30;
 			habilita_objetivo = false;
 			tempolimite = 60;
 		}
-		descDistancia.text = "Distância Percorrida:" + barreiras * 10 + "m";
+		// descDistancia.text = "Distância Percorrida:" + barreiras * 10 + "m";
 		tempolimite-= Time.deltaTime;//contagem regressiva
 		/* TRECHO Q N ENTENDI 
 		if (media_bpm [j] != int.Parse (descBPM.text.ToString())) {
