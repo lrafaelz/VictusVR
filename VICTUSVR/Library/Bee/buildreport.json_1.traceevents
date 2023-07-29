@@ -1,0 +1,702 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1687390361797536, "dur": 3881346, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687390361797769, "dur": 5342, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687390361803114, "dur": 26312, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687390361829429, "dur": 2237246, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687390364066677, "dur": 1610711, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687390365677392, "dur": 1489, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687390365679484, "dur": 17, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1687390363880957, "dur": 168463, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687390363881798, "dur": 39509, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687390364034710, "dur": 3952, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687390364038666, "dur": 10740, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687390364039465, "dur": 9137, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687390364055773, "dur": 1469, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687390364054951, "dur": 2329, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687390365679606, "dur": 209, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1687390364106617, "dur":1115, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390364107737, "dur":75, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1687390364107843, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1687390364107861, "dur":363, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1687390364108251, "dur":917, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390364109168, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667542, "dur":183, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667725, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667735, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667738, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667748, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667749, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667756, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667758, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667761, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667762, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667767, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667768, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667773, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667774, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667778, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667779, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667784, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667804, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365667824, "dur":1342, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1687390364109952, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364109952, "dur":2498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364112451, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1687390364112580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364124911, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1687390364126522, "dur":13566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1687390364140096, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364140109, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1687390364141332, "dur":22540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364163877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364164071, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364165441, "dur":43909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364209354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364209364, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364212199, "dur":28675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364240877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364240885, "dur":654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364241568, "dur":49523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364291095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364291102, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364292396, "dur":21011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364313413, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364313423, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364314496, "dur":52414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364366916, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364366927, "dur":14983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364381939, "dur":22544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364404489, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364404500, "dur":1381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364405909, "dur":19458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364425371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364425377, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364426517, "dur":23122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364449645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364449655, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364451268, "dur":31260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364482531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364482537, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364484509, "dur":144000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364628515, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364628526, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364629669, "dur":55298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364684971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364684980, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364685849, "dur":107415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364793270, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364793284, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364794311, "dur":41995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364836313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364836325, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364837432, "dur":54694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364892130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390364892139, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390364893138, "dur":249565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390365142709, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390365142720, "dur":5288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390365148039, "dur":154751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390365302795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390365302803, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390365304473, "dur":140041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390365444521, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687390365444533, "dur":1947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687390365446529, "dur":221016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364109278, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364109279, "dur":3055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364112341, "dur":35652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1687390364148025, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364148387, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1687390364149643, "dur":46878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364196528, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364196540, "dur":1682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364198258, "dur":27621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364225886, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364225900, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364226915, "dur":63924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364290845, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364290856, "dur":4887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364295777, "dur":43616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364339397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364339406, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364340199, "dur":41359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364381564, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364381574, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364382928, "dur":28783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364411717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364411727, "dur":2982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364414768, "dur":27431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364442205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364442213, "dur":7864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364450108, "dur":31948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364482063, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364482075, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364483072, "dur":57087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364540163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364543909, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364545031, "dur":22819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364567856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364567867, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364568858, "dur":24848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364593712, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364593728, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364594917, "dur":27630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364622553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364622563, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364623896, "dur":53111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364677013, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364677025, "dur":7488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364684553, "dur":135042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364819599, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364819607, "dur":4240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364823876, "dur":35156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364859038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390364859046, "dur":2953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390364862031, "dur":346051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390365208088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365208100, "dur":2389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390365210523, "dur":119810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390365330339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365330350, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687390365331586, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1687390365331706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365331855, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1687390365332495, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/ae/aea617fa96f5a548f26e4b253b656d1f.vis" }}
+,{ "pid":12345, "tid":2, "ts":1687390365332550, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365332907, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/ae/aea617fa96f5a548f26e4b253b656d1f.vis" }}
+,{ "pid":12345, "tid":2, "ts":1687390365333709, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/ae/aea617fa96f5a548f26e4b253b656d1f.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1687390365333750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365333758, "dur":3143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/ae/aea617fa96f5a548f26e4b253b656d1f.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1687390365336953, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/ae/aea617fa96f5a548f26e4b253b656d1f.iws.sse" }}
+,{ "pid":12345, "tid":2, "ts":1687390365336991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365337003, "dur":2115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/ae/aea617fa96f5a548f26e4b253b656d1f.iws.sse" }}
+,{ "pid":12345, "tid":2, "ts":1687390365339147, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/ae/aea617fa96f5a548f26e4b253b656d1f.caw" }}
+,{ "pid":12345, "tid":2, "ts":1687390365339178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365339184, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/ae/aea617fa96f5a548f26e4b253b656d1f.caw" }}
+,{ "pid":12345, "tid":2, "ts":1687390365341114, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/5f/5f5500f64a61244fb29eb88c936d1733.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1687390365341144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365341150, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/5f/5f5500f64a61244fb29eb88c936d1733.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1687390365341978, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/5f/5f5500f64a61244fb29eb88c936d1733.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1687390365342008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365342034, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/5f/5f5500f64a61244fb29eb88c936d1733.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1687390365342929, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/53/53356da0825d3888ea18d7b9f75eaf97.rsc.sse" }}
+,{ "pid":12345, "tid":2, "ts":1687390365342960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365342988, "dur":1620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/53/53356da0825d3888ea18d7b9f75eaf97.rsc.sse" }}
+,{ "pid":12345, "tid":2, "ts":1687390365344641, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/53/53356da0825d3888ea18d7b9f75eaf97.caw" }}
+,{ "pid":12345, "tid":2, "ts":1687390365344677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365344684, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/53/53356da0825d3888ea18d7b9f75eaf97.caw" }}
+,{ "pid":12345, "tid":2, "ts":1687390365345778, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/30/3032f4ae40a816684f7dd316d2d211ac.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1687390365345807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365345815, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/30/3032f4ae40a816684f7dd316d2d211ac.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1687390365346654, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/30/3032f4ae40a816684f7dd316d2d211ac.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1687390365346708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365346715, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/30/3032f4ae40a816684f7dd316d2d211ac.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1687390365347583, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/1f/1fb976b80612761415b37007f592c062.pos" }}
+,{ "pid":12345, "tid":2, "ts":1687390365347614, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365347651, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/1f/1fb976b80612761415b37007f592c062.pos" }}
+,{ "pid":12345, "tid":2, "ts":1687390365348483, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/04/04e8f4887753c0ecca948966a3d9846d.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1687390365348517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365348592, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/04/04e8f4887753c0ecca948966a3d9846d.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1687390365349585, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/04/04e8f4887753c0ecca948966a3d9846d.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1687390365349618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365349624, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/04/04e8f4887753c0ecca948966a3d9846d.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1687390365350735, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1687390365350764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687390365350769, "dur":110402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1687390365461213, "dur":206325, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364108900, "dur":332, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364109236, "dur":3095, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364112341, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1687390364112349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364113369, "dur":382, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1687390364113762, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1687390364113804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364113965, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1687390364116753, "dur":12367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1687390364129124, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364129135, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1687390364130367, "dur":4296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1687390364134669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364134677, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1687390364136762, "dur":71199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364207968, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364207979, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364209146, "dur":24575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364233726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364233767, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364234809, "dur":21133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364255948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364255958, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364257355, "dur":48539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364305898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364305904, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364306728, "dur":98098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364404830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364404836, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364406155, "dur":19181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364425343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364425354, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364426516, "dur":107302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364533825, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364533835, "dur":4652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364538519, "dur":55190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364593713, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364593728, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364595299, "dur":130638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364725944, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364725955, "dur":4982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364730971, "dur":40486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364771461, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364771468, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364772493, "dur":46797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364819297, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364819310, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364820329, "dur":25269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364845602, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364845618, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364846318, "dur":91527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Mediation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364937852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390364937862, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Mediation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390364938776, "dur":151161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390365089944, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365089954, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390365091017, "dur":73400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390365164423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365164434, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390365165408, "dur":136394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390365301809, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365301820, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390365302978, "dur":36667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/DelaunayER.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390365339649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365339656, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/DelaunayER.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687390365340586, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/5f/5f5500f64a61244fb29eb88c936d1733.vis" }}
+,{ "pid":12345, "tid":3, "ts":1687390365340622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365340774, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/5f/5f5500f64a61244fb29eb88c936d1733.vis" }}
+,{ "pid":12345, "tid":3, "ts":1687390365341771, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/5f/5f5500f64a61244fb29eb88c936d1733.iws.sse" }}
+,{ "pid":12345, "tid":3, "ts":1687390365341810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365341819, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/5f/5f5500f64a61244fb29eb88c936d1733.iws.sse" }}
+,{ "pid":12345, "tid":3, "ts":1687390365342802, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/53/53356da0825d3888ea18d7b9f75eaf97.vis" }}
+,{ "pid":12345, "tid":3, "ts":1687390365342832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365342949, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/53/53356da0825d3888ea18d7b9f75eaf97.vis" }}
+,{ "pid":12345, "tid":3, "ts":1687390365344138, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/53/53356da0825d3888ea18d7b9f75eaf97.iws.sse" }}
+,{ "pid":12345, "tid":3, "ts":1687390365344171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365344179, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/53/53356da0825d3888ea18d7b9f75eaf97.iws.sse" }}
+,{ "pid":12345, "tid":3, "ts":1687390365345166, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/30/3032f4ae40a816684f7dd316d2d211ac.vis" }}
+,{ "pid":12345, "tid":3, "ts":1687390365345197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365345353, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/30/3032f4ae40a816684f7dd316d2d211ac.vis" }}
+,{ "pid":12345, "tid":3, "ts":1687390365346221, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/30/3032f4ae40a816684f7dd316d2d211ac.iws.sse" }}
+,{ "pid":12345, "tid":3, "ts":1687390365346252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365346258, "dur":775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/30/3032f4ae40a816684f7dd316d2d211ac.iws.sse" }}
+,{ "pid":12345, "tid":3, "ts":1687390365347058, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/1f/1fb976b80612761415b37007f592c062.rpc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1687390365347086, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365347291, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/1f/1fb976b80612761415b37007f592c062.rpc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1687390365348180, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/04/04e8f4887753c0ecca948966a3d9846d.rsc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1687390365348227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365348436, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/04/04e8f4887753c0ecca948966a3d9846d.rsc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1687390365349666, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/04/04e8f4887753c0ecca948966a3d9846d.caw" }}
+,{ "pid":12345, "tid":3, "ts":1687390365349703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365349710, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/04/04e8f4887753c0ecca948966a3d9846d.caw" }}
+,{ "pid":12345, "tid":3, "ts":1687390365350752, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1687390365350782, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365350785, "dur":9115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1687390365359923, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1687390365359950, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365359954, "dur":8927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1687390365368909, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1687390365368948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365368955, "dur":9241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1687390365378241, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1687390365378289, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365378299, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1687390365380660, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1687390365380742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365380749, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1687390365382418, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1687390365382461, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365382471, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1687390365385501, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1687390365385548, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365385558, "dur":2266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1687390365387878, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1687390365387941, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365387958, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1687390365389125, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1687390365389171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365389180, "dur":1944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1687390365391168, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1687390365391199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365391206, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1687390365392354, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1687390365392392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687390365392399, "dur":37437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1687390365429884, "dur":237655, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364109100, "dur":215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364109315, "dur":3086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364112401, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1687390364112526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364113897, "dur":4115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1687390364118048, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1687390364118531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364118828, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1687390364120527, "dur":14291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687390364134821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364134828, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687390364135999, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1687390364136134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364136470, "dur":7247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1687390364143754, "dur":27016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364170776, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364170865, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364171684, "dur":23497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364195187, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364195200, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364197226, "dur":108113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364305345, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364305356, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364306625, "dur":51242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364357874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364357884, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364359149, "dur":33472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364392627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364392638, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364393627, "dur":22719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364416352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364416362, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364417274, "dur":23996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364441274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364441280, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364442554, "dur":39564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364482122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364482128, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364483165, "dur":19687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364502857, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364502867, "dur":6111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364509016, "dur":25724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364536231, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364536247, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364538535, "dur":116450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364654991, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364655003, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364656170, "dur":27217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364683398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364683413, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364684560, "dur":86645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364771239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364771253, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364772574, "dur":47107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364819684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364819690, "dur":5664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364825380, "dur":32545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364857929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364858344, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364859354, "dur":104248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364963609, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390364963620, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390364964625, "dur":109467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390365074099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390365074109, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390365075259, "dur":240179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390365315445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390365315454, "dur":3605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390365319090, "dur":194583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390365513677, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687390365513686, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687390365514601, "dur":152962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687390364109475, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687390364109475, "dur":2863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687390364112341, "dur":11852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1687390364124207, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687390364124237, "dur":1931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1687390364126200, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1687390364126302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687390364126352, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1687390364127822, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1687390364127916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687390364127922, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1687390364130176, "dur":446394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390364576602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687390364576612, "dur":24446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390364601093, "dur":21746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390364622843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687390364622850, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390364625105, "dur":42041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390364667152, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687390364667164, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390364668524, "dur":60495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390364729028, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687390364729039, "dur":12768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390364741843, "dur":114722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390364856573, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687390364856584, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390364857741, "dur":47438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390364905187, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687390364905198, "dur":14334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390364919563, "dur":161826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390365081396, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687390365081409, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390365082903, "dur":206838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390365289746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687390365289756, "dur":2459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390365292251, "dur":332984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/EasyRoads3Dv3.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390365625241, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687390365625254, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/EasyRoads3Dv3.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687390365627328, "dur":40216, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364109684, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364109685, "dur":2651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364112341, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1687390364112552, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364124482, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1687390364125626, "dur":10795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1687390364136425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364136435, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1687390364137449, "dur":52656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364190116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364190126, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364191293, "dur":66242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364257539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364257547, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364258472, "dur":135068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364393544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364393552, "dur":2883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364396466, "dur":44789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364441262, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364441273, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364442521, "dur":79893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364522422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364522828, "dur":3359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364526211, "dur":24307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364550524, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364550537, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364551432, "dur":21128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364572569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364572580, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364573575, "dur":35541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364609120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364609131, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364610826, "dur":20929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364631757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364631762, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364633369, "dur":175759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364809134, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364809144, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364810007, "dur":34043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364844058, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364844069, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364845421, "dur":44813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364890242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364890254, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364891263, "dur":85611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364976882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390364976893, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390364978154, "dur":65579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390365043739, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390365043751, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390365044899, "dur":100030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390365144935, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390365144945, "dur":6077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390365151058, "dur":133153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390365284235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390365284244, "dur":4369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390365288644, "dur":265735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390365554385, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687390365554395, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687390365555569, "dur":111977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364109752, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364109753, "dur":2641, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364112395, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1687390364112536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364123684, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1687390364125047, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1687390364125186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364125776, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1687390364127586, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1687390364127715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364127723, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1687390364129312, "dur":33871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364163190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364163290, "dur":7700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364171024, "dur":42523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364213553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364213563, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364214776, "dur":18943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364233726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364233767, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364235208, "dur":78943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364314156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364314163, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364314999, "dur":22393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364337398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364337433, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364338302, "dur":59046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364397352, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364397366, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364398687, "dur":51655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364450346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364450353, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364451191, "dur":23627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364474822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364474832, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364475944, "dur":45700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364521651, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364521661, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364522709, "dur":28359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364551072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364551080, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364553000, "dur":19656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364572658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364572664, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364573596, "dur":35518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364609120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364609131, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364610367, "dur":21211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364631581, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364631594, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364633383, "dur":39376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364672768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390364672806, "dur":23128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390364695968, "dur":349294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390365045266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365045275, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390365046311, "dur":233172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390365279492, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365279504, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390365280799, "dur":50635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390365331439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365331448, "dur":713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687390365332192, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1687390365332220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365332256, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1687390365333091, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/ae/aea617fa96f5a548f26e4b253b656d1f.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1687390365333122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365333209, "dur":5841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/ae/aea617fa96f5a548f26e4b253b656d1f.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1687390365339084, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/ae/aea617fa96f5a548f26e4b253b656d1f.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1687390365339118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365339128, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/ae/aea617fa96f5a548f26e4b253b656d1f.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1687390365341075, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/5f/5f5500f64a61244fb29eb88c936d1733.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1687390365341105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365341142, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/5f/5f5500f64a61244fb29eb88c936d1733.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1687390365342170, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/5f/5f5500f64a61244fb29eb88c936d1733.caw" }}
+,{ "pid":12345, "tid":7, "ts":1687390365342217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365342222, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/5f/5f5500f64a61244fb29eb88c936d1733.caw" }}
+,{ "pid":12345, "tid":7, "ts":1687390365343161, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/53/53356da0825d3888ea18d7b9f75eaf97.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1687390365343195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365343202, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/53/53356da0825d3888ea18d7b9f75eaf97.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1687390365344344, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/53/53356da0825d3888ea18d7b9f75eaf97.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1687390365344372, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365344411, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/53/53356da0825d3888ea18d7b9f75eaf97.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1687390365345483, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/30/3032f4ae40a816684f7dd316d2d211ac.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1687390365345514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365345606, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/30/3032f4ae40a816684f7dd316d2d211ac.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1687390365346708, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/30/3032f4ae40a816684f7dd316d2d211ac.caw" }}
+,{ "pid":12345, "tid":7, "ts":1687390365346747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365346753, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/30/3032f4ae40a816684f7dd316d2d211ac.caw" }}
+,{ "pid":12345, "tid":7, "ts":1687390365347988, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/04/04e8f4887753c0ecca948966a3d9846d.vis" }}
+,{ "pid":12345, "tid":7, "ts":1687390365348024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365348302, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/04/04e8f4887753c0ecca948966a3d9846d.vis" }}
+,{ "pid":12345, "tid":7, "ts":1687390365349259, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/04/04e8f4887753c0ecca948966a3d9846d.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1687390365349290, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365349314, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/GI/level2/04/04e8f4887753c0ecca948966a3d9846d.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1687390365350610, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":7, "ts":1687390365350642, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365350647, "dur":4440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":7, "ts":1687390365355122, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1687390365355190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365355202, "dur":4504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1687390365359763, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687390365359795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365359804, "dur":4192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687390365364030, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687390365364065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365364072, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687390365365331, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1687390365365489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365365497, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1687390365367791, "dur":56534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1687390365424338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365424358, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1687390365425818, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687390365425857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365425865, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687390365428129, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1687390365428183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365428193, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1687390365429670, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1687390365429819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687390365429825, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1687390365430897, "dur":236643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364110128, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364110129, "dur":2266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364112395, "dur":11330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1687390364123729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364123736, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1687390364124797, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1687390364124925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364124932, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1687390364126565, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1687390364126714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364126726, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1687390364128392, "dur":3696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364132094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364132412, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364133785, "dur":55044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR.exe" }}
+,{ "pid":12345, "tid":8, "ts":1687390364188835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364188845, "dur":3739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR.exe" }}
+,{ "pid":12345, "tid":8, "ts":1687390364192612, "dur":25466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364218084, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364218094, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364219082, "dur":20511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364239602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364239612, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364240537, "dur":19122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364259666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364259675, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364260857, "dur":168337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364429200, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364429211, "dur":4113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364433354, "dur":39277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364472638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364472649, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364473675, "dur":27083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364500765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364500775, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364502048, "dur":37165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364539216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364539229, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364540103, "dur":21081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364561190, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364561201, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364562135, "dur":69279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364631419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364631432, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364633140, "dur":40508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364673653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364673660, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364674948, "dur":119879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364794831, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364794847, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364795894, "dur":94405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364890303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390364890309, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390364891267, "dur":120345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390365011618, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390365011631, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390365012759, "dur":186222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390365198988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390365198999, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390365200087, "dur":83471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390365283564, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390365283576, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390365284472, "dur":380977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390365665454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687390365665462, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/subDesktop/Unipampa/BuildVictus/VICTUSVR_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687390365667508, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1687390365667510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687390365670294, "dur":2566, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1687390365679892, "dur": 2879, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687390365679466, "dur": 3338, "ph": "X", "name": "Write chrome-trace events", "args": {} },

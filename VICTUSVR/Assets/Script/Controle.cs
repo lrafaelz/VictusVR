@@ -5,10 +5,11 @@ using UnityEngine.UI; //Elementos da Interface Gráfica
 using UnityEngine.AI;
 using System.IO.Ports; // Biblioteca para ler comunicação serial com Arduino
 using System.Threading;
+using System.Globalization;
 
 public class Controle : MonoBehaviour {
 
-	Thread IOThread = new Thread (DataThread);
+
 	private static SerialPort serial;
 
 	public Text displayContagem, displayBatimentos, displayVelocidade, displayEmg, displayObjetivo;
@@ -20,9 +21,14 @@ public class Controle : MonoBehaviour {
 	public GameObject entrada;
 	public AudioSource bike, musica;
 	public GameObject InputField;
+	Thread IOThread = new Thread (DataThread);
+
+	string emg, bpm;// variáveis 
+	public int velInt, direcao;
+	public float velocidade, eixo;
 
 	private static void DataThread(){
-		serial = new SerialPort ("COM3", 115200);
+		serial = new SerialPort ("COM6", 115200);
 		serial.Open ();
 			Thread.Sleep(200);
 		}
@@ -46,9 +52,7 @@ public class Controle : MonoBehaviour {
 
 	}
 
-	string emg, bpm;// variáveis 
-	int velInt;
-	public float velocidade, eixo;
+
 	// Update is called once per frame
 	void Update () {
 			if (tempo >= fimDaPartida) {
@@ -75,24 +79,32 @@ public class Controle : MonoBehaviour {
 			// 
 			string[] valores = serial.ReadLine().Split ('#'); // separador de valores
 			// Debug.Log("Valores" + "#"+valores[0] +"#"+ valores[1] +"#"+ valores[2] );
-			while(valores.Length < 3){ // to avoid errors
+			while(valores.Length < 4){ // to avoid errors
 				valores = serial.ReadLine ().Split ('#'); // separador de valores
 				serial.BaseStream.Flush(); //Clear the serial information so we assure we get new information.
 
 			}
 			bpm = valores[0];
-			velocidade = float.Parse(valores [1]);
+			velocidade = float.Parse(valores [1], CultureInfo.InvariantCulture);
 			emg = valores [2];
+			direcao = int.Parse(valores[3]);
 			//eixo = valores [3];
 			// LerDadosDoSerial();
-			Debug.Log("Valores" + "#"+bpm +"#"+ velocidade +"#"+ emg );
+			Debug.Log("Valores" + "#"+bpm +"#"+ velocidade +"#"+ emg + "#"+ direcao);
 			displayBatimentos.text = bpm;
 			displayEmg.text = "EMG: "+emg;
-			navmesh.speed = (float)(velocidade / 3.6);
+			// navmesh.speed = (float)(velocidade / 3.6); 
 			velInt = (int)velocidade;
-			displayVelocidade.text = velInt.ToString();
 			serial.BaseStream.Flush(); //Clear the serial information so we assure we get new information.
 		}
+	}
+
+	public int getDirecao(){
+		return direcao;
+	}	
+
+	public float getVelocidade(){
+		return velocidade;
 	}
 		
 	IEnumerator LerDadosDoSerial(){

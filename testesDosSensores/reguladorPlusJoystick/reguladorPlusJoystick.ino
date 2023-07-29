@@ -29,7 +29,7 @@ void loop(){
   potentiometer = map(potentiometer,0,1023,1,100);
   
   BPM = map(potentiometer, 1, 100, 50, 170);   
-  vel = map(potentiometer, 1, 100, 1, 20);
+  vel = map(potentiometer, 1, 100, 0 , 20);
   EMG = map(potentiometer, 1, 100, 300, 500);
   outputValueX = map(valueX, 0, 1023, 0, 255);
 

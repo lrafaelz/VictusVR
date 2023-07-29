@@ -3,6 +3,8 @@
 char texto[60];
 char tex[24];
 char tex1[24];
+char tex2[24];
+
 
 
 /*
@@ -69,6 +71,14 @@ int RPXS = 0; // rotation per x seconds
 int BPM;
 int EMG;
 
+//Joystick
+const int pinX = A3;
+const int pinY = A4;
+int valueX = 0;
+int valueY = 0;
+int outputValueX = 0;
+int outputValueY = 0;
+
 
 void setup(){
   Serial.begin(115200);
@@ -77,6 +87,8 @@ void setup(){
 }
 
 void loop(){
+  valueX = analogRead(pinX);
+  outputValueX = map(valueX, 0, 1023, 0, 255);
   sprintf(texto, "%d", BPMSensor());
   strcat(texto, "#");
   char *valor2 = dtostrf(hallEffect(),5,2,tex);
@@ -84,6 +96,9 @@ void loop(){
   strcat(texto, "#");
   sprintf(tex1, "%d", EMGSensor());
   strcat(texto, tex1);
+  strcat(texto, "#");
+  sprintf(tex2, "%d", outputValueX);
+  strcat(texto, tex2);
   Serial.println(texto);
   // Serial.print();
   // Serial.print("#");
@@ -93,6 +108,3 @@ void loop(){
   delay(40);
   Serial.flush();
 }
-
-
-

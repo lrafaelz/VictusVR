@@ -7,8 +7,8 @@ public class TrackWaypoints : MonoBehaviour{
 
     public event EventHandler OnPlayerCorrectWaypoint;
     public event EventHandler OnPlayerWrongWaypoint;
-    private List<Waypoints> waypointsList;
-    private int nextWaypointIndex;
+    public List<Waypoints> waypointsList;
+    public int nextWaypointIndex;
 
     private void Awake(){
         Transform waypointsTransform = transform.Find("Waypoints");
