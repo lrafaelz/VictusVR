@@ -26,7 +26,7 @@ public class TrackWaypoints : MonoBehaviour{
     public void PlayerThroughtCheckpoint(Waypoints wayPoint){
         if(waypointsList.IndexOf(wayPoint) == nextWaypointIndex){
             // correct waypoint
-            Debug.Log("Correct");
+            // Debug.Log("Correct");
             Waypoints correctWaypoint = waypointsList[nextWaypointIndex];
             correctWaypoint.Hide();
 

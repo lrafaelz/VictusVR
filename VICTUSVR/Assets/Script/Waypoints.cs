@@ -6,10 +6,12 @@ public class Waypoints : MonoBehaviour{
 
     private TrackWaypoints trackWaypoints;
     private MeshRenderer meshRenderer;
+    private int difficulty;
 
     private void Awake(){
         meshRenderer = GetComponent<MeshRenderer>();
-
+        // Obter os valores de dificuldade preenchidos no menu de configurações
+        this.difficulty = PlayerPrefs.GetInt("HardCoreDifficulty");
     }
 
     private void Start(){

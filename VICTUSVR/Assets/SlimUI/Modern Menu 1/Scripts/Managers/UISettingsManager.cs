@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using UnityEngine.UI;
 using TMPro;
@@ -14,6 +15,7 @@ namespace SlimUI.ModernMenu{
 		public GameObject difficultynormaltextLINE;
 		public GameObject difficultyhardcoretext;
 		public GameObject difficultyhardcoretextLINE;
+		// public GameObject
 
 		// sliders
 		public GameObject musicSlider; 
@@ -39,6 +41,7 @@ namespace SlimUI.ModernMenu{
 			// check slider values
 			musicSlider.GetComponent<Slider>().value = PlayerPrefs.GetFloat("MusicVolume");
 
+
 		}
 
 		public void Update (){
@@ -49,35 +52,6 @@ namespace SlimUI.ModernMenu{
 			//PlayerPrefs.SetFloat("MusicVolume", sliderValue);
 			PlayerPrefs.SetFloat("MusicVolume", musicSlider.GetComponent<Slider>().value);
 		}
-
-		// public void SensitivitySmoothing (){
-		// 	PlayerPrefs.SetFloat("MouseSmoothing", sliderValueSmoothing);
-		// 	Debug.Log(PlayerPrefs.GetFloat("MouseSmoothing"));
-		// }
-
-
-		// // the playerprefs variable that is checked to enable mobile sfx while in game
-		// public void MobileSFXMute (){
-		// 	if(PlayerPrefs.GetInt("Mobile_MuteSfx")==0){
-		// 		PlayerPrefs.SetInt("Mobile_MuteSfx",1);
-		// 		mobileSFXtext.GetComponent<TMP_Text>().text = "on";
-		// 	}
-		// 	else if(PlayerPrefs.GetInt("Mobile_MuteSfx")==1){
-		// 		PlayerPrefs.SetInt("Mobile_MuteSfx",0);
-		// 		mobileSFXtext.GetComponent<TMP_Text>().text = "off";
-		// 	}
-		// }
-
-		// public void MobileMusicMute (){
-		// 	if(PlayerPrefs.GetInt("Mobile_MuteMusic")==0){
-		// 		PlayerPrefs.SetInt("Mobile_MuteMusic",1);
-		// 		mobileMusictext.GetComponent<TMP_Text>().text = "on";
-		// 	}
-		// 	else if(PlayerPrefs.GetInt("Mobile_MuteMusic")==1){
-		// 		PlayerPrefs.SetInt("Mobile_MuteMusic",0);
-		// 		mobileMusictext.GetComponent<TMP_Text>().text = "off";
-		// 	}
-		// }
 
 		public void NormalDifficulty (){
 			difficultyhardcoretextLINE.gameObject.SetActive(false);
@@ -93,5 +67,17 @@ namespace SlimUI.ModernMenu{
 			PlayerPrefs.SetInt("HardCoreDifficulty",1);
 		}
 
+		public void setControls(int val){
+			if (val == 0){
+				PlayerPrefs.SetInt("WASD", 1);
+			}
+			else if (val == 1){
+				PlayerPrefs.SetInt("WASD", 0);
+			}
+		}
+		
+		public void Pista1(){
+			SceneManager.LoadScene("PISTA 1", LoadSceneMode.Single);
+		}
 	}
 }

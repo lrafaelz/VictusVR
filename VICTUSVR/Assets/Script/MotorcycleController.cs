@@ -11,6 +11,7 @@ namespace BikeSystem.controller
 {
   public class MotorcycleController : MonoBehaviour
   {
+    public int useSerial;
     public type TypeOfBike;
     public Transform SteerTransform;
     public WheelCollider frontWheel;
@@ -38,6 +39,8 @@ namespace BikeSystem.controller
 
     private void Awake()
     {
+      print("bora anda de bike");
+      useSerial = PlayerPrefs.GetInt("WASD");
       audio = GetComponent<AudioSource>();
       rigidbody = GetComponent<Rigidbody>();
       rigidbody.constraints = RigidbodyConstraints.FreezeRotationZ;
@@ -70,9 +73,16 @@ namespace BikeSystem.controller
 
     private void FixedUpdate()
     {
+      // if(useSerial == 1){
       SteerBase();
       AccelBase();
-      // AccelSerial();
+      // }
+      // else{
+      //   SteerSerial();
+      //   AccelSerial();
+        
+      // }
+
       LerpSteerDecrementalL();
       LerpSteerDecrementalR();
       LerpSteerIncrementalL();
@@ -207,8 +217,29 @@ namespace BikeSystem.controller
 
     [HideInInspector] public bool hit;
 
-    //Função que controla a direção da moto/bike
+
     private void SteerBase()
+    {
+      float InputSteer = Input.GetAxis("Horizontal");
+      float InputAccel = Input.GetAxis("Vertical");
+      frontWheel.steerAngle = InputSteer * steeringForce;
+
+      SteerTransform.localEulerAngles = new Vector3(SteerTransform.localEulerAngles.x, steeringForce * (smoothSteerR - smoothSteerL), SteerTransform.localEulerAngles.z);
+
+      if (hit)
+      {
+        transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, transform.localEulerAngles.y, transform.localEulerAngles.z);
+      }
+      else
+      {
+        transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, transform.localEulerAngles.y, maxInclination * (smoothSteerR - smoothSteerL));
+      }
+      rigidbody.solverIterations = 100;
+      rigidbody.solverIterations = 100;
+    }
+
+    //Função que controla a direção da moto/bike
+    private void SteerSerial()
     {
       // float InputSteer = Input.GetAxis("Horizontal");
       float InputSteer = Map(serial.getDirecao(), 0, 255, -1, 1);
@@ -337,11 +368,9 @@ namespace BikeSystem.controller
       }
     }
 
-    // public void OnTriggerEnter(Collider objColisao){
-    //   if(objColisao.tag.Equals("wayPoint")){
-    //     Debug.Log("Houve colisão: " + objColisao.gameObject.name);
-    //   }
-    // }
+
+
+
     float Map(float value, float inMin, float inMax, float outMin, float outMax){
       return (value - inMin) * (outMax - outMin) / (inMax - inMin) + outMin;
     }
