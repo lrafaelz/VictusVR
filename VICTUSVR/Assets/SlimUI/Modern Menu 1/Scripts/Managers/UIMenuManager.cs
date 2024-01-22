@@ -17,6 +17,8 @@ namespace SlimUI.ModernMenu{
         [Tooltip("The Menu for when the PLAY button is clicked")]
         public GameObject playMenu;
         [Tooltip("The Menu for when the EXIT button is clicked")]
+		public GameObject newUser;
+		[Tooltip("The Menu for when the PLAY button is clicked")]
         public GameObject exitMenu;
         [Tooltip("Optional 4th Menu")]
         public GameObject extrasMenu;
