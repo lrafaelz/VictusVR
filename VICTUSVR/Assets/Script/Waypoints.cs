@@ -19,7 +19,7 @@ public class Waypoints : MonoBehaviour{
     }
 
     private void OnTriggerEnter(Collider other){
-        if(other.tag.Equals("Player")){
+        if(other.tag.Equals("BMXBike")){
             trackWaypoints.PlayerThroughtCheckpoint(this);
         }
     }

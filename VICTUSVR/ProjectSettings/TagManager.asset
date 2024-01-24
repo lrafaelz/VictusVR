@@ -7,6 +7,8 @@ TagManager:
   - Barreira
   - FW
   - wayPoint
+  - BMXBike
+  - Obstaculo
   layers:
   - Default
   - TransparentFX

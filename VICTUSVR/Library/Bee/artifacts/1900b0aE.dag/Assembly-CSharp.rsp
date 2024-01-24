@@ -375,6 +375,7 @@
 "Assets/script.cs"
 "Assets/Script/AudioController.cs"
 "Assets/Script/Barreira.cs"
+"Assets/Script/barreiraCollision.cs"
 "Assets/Script/CameraController.cs"
 "Assets/Script/CameraCorrida.cs"
 "Assets/Script/Controle.cs"

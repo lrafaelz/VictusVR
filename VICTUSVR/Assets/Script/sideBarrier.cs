@@ -25,8 +25,6 @@ public class sideBarrier : MonoBehaviour{
             // MotorcycleController bikeController = Player.GetComponent<MotorcycleController>();
             // wait a second
             StartCoroutine(wait(0.5f));
-            
-            
         }
     }
 
@@ -53,7 +51,7 @@ public class sideBarrier : MonoBehaviour{
     }
 
     private void Start(){
-        Debug.Log("wallColliders: " + wallColliders.Length);
+        // Debug.Log("wallColliders: " + wallColliders.Length);
         Hide();
     }
 
