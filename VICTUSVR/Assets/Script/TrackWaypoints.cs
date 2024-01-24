@@ -36,7 +36,7 @@ public class TrackWaypoints : MonoBehaviour{
 
         } else{
             //wrong waypoint
-            Debug.Log("Wrong");
+            Debug.Log("Wrong" + wayPoint.transform.name);
             OnPlayerWrongWaypoint?.Invoke(this, EventArgs.Empty);
 
             Waypoints correctWaypoint = waypointsList[nextWaypointIndex];

@@ -12,23 +12,24 @@ public class sideBarrier : MonoBehaviour{
     private bool areCollidersActive = true;
     // public MotorcycleController motorcycleController;
  
-    private void OnTriggerEnter(Collider collision)
+    private IEnumerator OnTriggerEnter(Collider collision)
     {
         if(collision.gameObject == Player){
-            // MotorcycleController bikeController = Player.GetComponent<MotorcycleController>();
+            // wait for 3 seconds
+            yield return new WaitForSeconds(1);
             Player.transform.position = TeleportTo.transform.position;
             Player.transform.rotation = TeleportTo.transform.rotation;
             Physics.SyncTransforms();
             // Stop bike
             SetCollidersActive(true);
+            // MotorcycleController bikeController = Player.GetComponent<MotorcycleController>();
             // wait a second
-            StartCoroutine(wait(1));
-            
-            
+            StartCoroutine(wait(0.5f));
         }
     }
 
-    IEnumerator wait(int sec){
+
+    IEnumerator wait(float sec){
         yield return new WaitForSeconds(sec);
         SetCollidersActive(false);
     }
@@ -50,7 +51,7 @@ public class sideBarrier : MonoBehaviour{
     }
 
     private void Start(){
-        Debug.Log("wallColliders: " + wallColliders.Length);
+        // Debug.Log("wallColliders: " + wallColliders.Length);
         Hide();
     }
 
