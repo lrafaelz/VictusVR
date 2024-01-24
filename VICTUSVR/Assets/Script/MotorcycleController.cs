@@ -73,15 +73,15 @@ namespace BikeSystem.controller
 
     private void FixedUpdate()
     {
-      // if(useSerial == 1){
-      SteerBase();
-      AccelBase();
-      // }
-      // else{
-      //   SteerSerial();
-      //   AccelSerial();
+      if(useSerial == 0){
+        SteerBase();
+        AccelBase();
+      }
+      else{
+        SteerSerial();
+        AccelSerial();
         
-      // }
+      }
 
       LerpSteerDecrementalL();
       LerpSteerDecrementalR();

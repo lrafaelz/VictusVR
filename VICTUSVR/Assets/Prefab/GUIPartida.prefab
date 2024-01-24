@@ -377,6 +377,8 @@ MonoBehaviour:
   bike: {fileID: 0}
   musica: {fileID: 0}
   InputField: {fileID: 0}
+  velInt: 0
+  direcao: 0
   velocidade: 0
   eixo: 0
 --- !u!1 &1422416687710894
