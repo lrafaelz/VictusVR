@@ -41,7 +41,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
+<<<<<<< Updated upstream
         m_Texture: {fileID: 2800000, guid: eec57a2df8b661545860d4167840377c, type: 3}
+=======
+        m_Texture: {fileID: 2800000, guid: d5cea92231f67c444b7c1c62e69f6bdd, type: 3}
+>>>>>>> Stashed changes
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
