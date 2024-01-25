@@ -128,9 +128,7 @@ public class Controle : MonoBehaviour {
 			Debug.Log("passei pelo setar tempo\n");	
 			entrada.SetActive (false);
 			// musica.Play ();
-			bike.Play ();
-
-			
+			// bike.Play ();
 		}
 	}
 
