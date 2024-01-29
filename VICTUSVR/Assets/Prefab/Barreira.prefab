@@ -111,6 +111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6119da9ba654fb44ab3f7d6d054331e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barreiraScore: 0
+  barreiraValue: 100
 --- !u!1001 &5468868352567910344
 PrefabInstance:
   m_ObjectHideFlags: 0
