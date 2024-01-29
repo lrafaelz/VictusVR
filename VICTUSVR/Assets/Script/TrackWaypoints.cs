@@ -10,6 +10,8 @@ public class TrackWaypoints : MonoBehaviour{
     public List<Waypoints> waypointsList;
     public int nextWaypointIndex;
 
+    public int waypointScore;
+
     private void Awake(){
         Transform waypointsTransform = transform.Find("Waypoints");
 
@@ -26,6 +28,7 @@ public class TrackWaypoints : MonoBehaviour{
     public void PlayerThroughtCheckpoint(Waypoints wayPoint){
         if(waypointsList.IndexOf(wayPoint) == nextWaypointIndex){
             // correct waypoint
+            waypointScore += 50;
             // Debug.Log("Correct");
             Waypoints correctWaypoint = waypointsList[nextWaypointIndex];
             correctWaypoint.Hide();
@@ -34,8 +37,11 @@ public class TrackWaypoints : MonoBehaviour{
             OnPlayerCorrectWaypoint?.Invoke(this, EventArgs.Empty);
 
 
+
         } else{
             //wrong waypoint
+            waypointScore -= 20;
+
             Debug.Log("Wrong" + wayPoint.transform.name);
             OnPlayerWrongWaypoint?.Invoke(this, EventArgs.Empty);
 

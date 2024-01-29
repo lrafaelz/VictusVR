@@ -25,8 +25,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1015293375823692}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0013072}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.01240988}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00036621, y: 10.7}
+  m_AnchoredPosition: {x: -0.26448524, y: -15.1622925}
   m_SizeDelta: {x: 493.7, y: 45.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222644563793512572
@@ -365,7 +365,7 @@ MonoBehaviour:
   displayBatimentos: {fileID: 114719570440051782}
   displayVelocidade: {fileID: 114200332224389168}
   displayEmg: {fileID: 114598963464475712}
-  displayObjetivo: {fileID: 114707224582871676}
+  displayScore: {fileID: 0}
   tempoSegundos: 0
   tempoMinutos: 0
   tempo: 0
@@ -374,9 +374,13 @@ MonoBehaviour:
   player: {fileID: 0}
   tempoFim: {fileID: 114985768933255456}
   entrada: {fileID: 1667732101972588}
+  highscoreTable: {fileID: 0}
+  BMXBike: {fileID: 0}
   bike: {fileID: 0}
   musica: {fileID: 0}
   InputField: {fileID: 0}
+  trackWaypoints: {fileID: 0}
+  waypointScore: 0
   velInt: 0
   direcao: 0
   velocidade: 0
@@ -405,7 +409,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1422416687710894}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0111}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -415,8 +419,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -50.5}
-  m_SizeDelta: {x: 100, y: 101}
+  m_AnchoredPosition: {x: 0.3973, y: -11.7065}
+  m_SizeDelta: {x: 90.5267, y: 49.2753}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1538717732430570
 GameObject:

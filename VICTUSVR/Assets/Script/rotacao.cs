@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿// CÓDIGO ANTIGO
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

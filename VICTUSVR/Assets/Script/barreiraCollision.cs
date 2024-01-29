@@ -6,16 +6,22 @@ using UnityEngine;
 public class barreiraCollision : MonoBehaviour{
     
     private GameObject Player;
+    private GameObject controle;
+    private Controle controleScript;
+    public int barreiraValue = 100;
 
     private void Awake(){
         Player = GameObject.Find("BMXBike");
+        controle = GameObject.Find("GUIPartida");
         Debug.Log("Player: " + Player.name);
     }
     private void OnCollisionEnter(Collision collision){
-        Debug.Log("Collision with: " + collision.gameObject.name);
         if(collision.gameObject == Player){
             Debug.Log("Collision with: " + collision.gameObject.name);
             Destroy(gameObject);
+            controleScript = controle.GetComponent<Controle>();
+            controleScript.barreiraScore = controleScript.barreiraScore + this.barreiraValue;
+            print("Score: " + controleScript.barreiraScore);
         }
     }
     // IEnumerator wait(float sec){
