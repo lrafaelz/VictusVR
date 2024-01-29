@@ -20,8 +20,11 @@ public class spawnObstacle : MonoBehaviour
                 barreira.transform.SetParent(this.transform);
                 bool twoBarrier = Random.Range(0, 2) == 1;
                 if (twoBarrier == true){
-                    r = Random.Range(0, 5);
-                    grandChild = child.GetChild(r);
+                    int r2 = Random.Range(0, 5);
+                    while(r2 == r){
+                        r2 = Random.Range(0, 5);
+                    }
+                    grandChild = child.GetChild(r2);
                     barreira = Instantiate(barreira, grandChild.position, grandChild.rotation);
                     barreira.transform.SetParent(this.transform);
 

@@ -12,6 +12,7 @@ public class Controle : MonoBehaviour {
 	BikeSystem.controller.MotorcycleController BMXScript;
 	private static SerialPort serial;
 
+	public string pacientName;
 	public Text displayContagem, displayBatimentos, displayVelocidade, displayEmg, displayScore;
 	public float tempoSegundos, tempoMinutos, tempo=0.0f;
 	public float fimDaPartida=0.0f;
