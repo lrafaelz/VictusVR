@@ -39,7 +39,7 @@ namespace BikeSystem.controller
 
     private void Awake()
     {
-      print("bora anda de bike");
+      // print("bora anda de bike");
       useSerial = PlayerPrefs.GetInt("WASD");
       audio = GetComponent<AudioSource>();
       rigidbody = GetComponent<Rigidbody>();

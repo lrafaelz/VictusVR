@@ -43,6 +43,8 @@ void loop(){
   strcat(texto, "#");
   sprintf(tex2, "%d", outputValueX);
   strcat(texto, tex2);
+  strcat(texto, "#");
+  strcat(texto, "3000");
   // strcat(texto, "\n");
   // Serial.print(BPM);
   // Serial.print("#");
