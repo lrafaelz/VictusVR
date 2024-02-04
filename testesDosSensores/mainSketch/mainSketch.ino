@@ -4,7 +4,6 @@ char texto[60];
 char tex[24];
 char tex1[24];
 char tex2[24];
-char tex3[24];
 
 
 
@@ -60,7 +59,7 @@ int i = 0; // value wich counts the number of times the magnet has passed at the
 #define updateRate 1000 // time between each amount of time that we capture the magnet presence in milliseconds (just values multiple of 10)
 #define radius 0.37 // m
 int currentI;
-float distance = 2*PI*radius; // m
+float distance = 2*PI*radius;; // m
 float lstTime; // last time that the sensor notice the magnet
 float interval; // interval between the first and the last time that the magnet passed by the sensor in milliseconds
 float velS = 0; // m/s
@@ -100,11 +99,6 @@ void loop(){
   strcat(texto, "#");
   sprintf(tex2, "%d", outputValueX);
   strcat(texto, tex2);
-  strcat(texto, "#");
-  sprintf(tex3, "%d", distance());
-  strcat(texto, tex3)
-  
-  
   Serial.println(texto);
   // Serial.print();
   // Serial.print("#");

@@ -10,14 +10,14 @@ public class barreiraCollision : MonoBehaviour{
     private Controle controleScript;
     public int barreiraValue = 100;
 
-    private void Awake(){   
+    private void Awake(){
         Player = GameObject.Find("BMXBike");
         controle = GameObject.Find("GUIPartida");
-        // Debug.Log("Player: " + Player.name);
+        Debug.Log("Player: " + Player.name);
     }
     private void OnCollisionEnter(Collision collision){
         if(collision.gameObject == Player){
-            // Debug.Log("Collision with: " + collision.gameObject.name);
+            Debug.Log("Collision with: " + collision.gameObject.name);
             Destroy(gameObject);
             controleScript = controle.GetComponent<Controle>();
             controleScript.barreiraScore = controleScript.barreiraScore + this.barreiraValue;

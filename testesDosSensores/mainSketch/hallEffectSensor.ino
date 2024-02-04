@@ -32,10 +32,6 @@ ISR(PCINT0_vect){
   sei();
 }
 
-float distance(){
-  return i*distance;
-}
-
 float hallEffect(){
   interval = millis() - lstTime;
   if(interval >= updateRate){
