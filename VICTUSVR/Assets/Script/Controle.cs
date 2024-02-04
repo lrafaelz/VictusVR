@@ -45,7 +45,7 @@ public class Controle : MonoBehaviour {
 	}
 
 	private static void DataThread(){
-		serial = new SerialPort ("COM6", 115200);
+		serial = new SerialPort ("COM5", 115200);
 		serial.Open ();
 			Thread.Sleep(200);
 		}
@@ -83,9 +83,6 @@ public class Controle : MonoBehaviour {
 				// musica.Pause ();
 					//******INSTANTIATE OS SCORES
 				getArrayValues();
-				foreach(var item in velArray){
-					Debug.Log(item.ToString());
-				}
 				if(once == 0)
 					this.SaveToJson();
 				once++;
@@ -125,11 +122,11 @@ public class Controle : MonoBehaviour {
 					Debug.Log("Valores" + "#"+ this.bpm +"#"+ this.velocidade +"#"+ this.emg + "#"+ this.direcao + "#" + this.distanceTravelled);
 					displayBatimentos.text = this.bpm;
 					displayEmg.text = "EMG: "+ this.emg;
-					// navmesh.speed = (float)(velocidade / 3.6);
-					Debug.Log("BMXScript.useSerial: " + this.BMXScript.useSerial);
-						
-					this.velInt = (int)this.velocidade;
+					// navmesh.speed = (float)(velocidade / 3.6);						
+					this.velInt = (int)this.BMXScript.ActualVelocity;
 					this.displayVelocidade.text = this.velInt.ToString();
+					this.displayDistance.text = distanceTravelled.ToString();
+
 					serial.BaseStream.Flush(); //Clear the serial information so we assure we get new information.
 
 				}
@@ -167,7 +164,7 @@ public class Controle : MonoBehaviour {
 			Time.timeScale = 1;
 			Debug.Log("passei pelo setar tempo\n");	
 			entrada.SetActive (false);
-			musica.Play ();
+			// musica.Play ();
 			// bike.Play ();
 		}
 	}
@@ -183,8 +180,8 @@ public class Controle : MonoBehaviour {
 
 	public void getArrayValues(){
 		this.velArray = velArray.Append(velInt).ToArray();
-		// this.BPMArray = BPMArray.Append(int.Parse(bpm)).ToArray();
-		// this.EMGArray = EMGArray.Append(int.Parse(emg)).ToArray();
+		this.BPMArray = BPMArray.Append(int.Parse(bpm)).ToArray();
+		this.EMGArray = EMGArray.Append(int.Parse(emg)).ToArray();
 	}
 
 	public void SaveToJson(){

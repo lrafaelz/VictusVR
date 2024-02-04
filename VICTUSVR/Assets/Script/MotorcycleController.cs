@@ -40,7 +40,7 @@ namespace BikeSystem.controller
     private void Awake()
     {
       // print("bora anda de bike");
-      useSerial = PlayerPrefs.GetInt("WASD");
+      // useSerial = PlayerPrefs.GetInt("WASD");
       audio = GetComponent<AudioSource>();
       rigidbody = GetComponent<Rigidbody>();
       rigidbody.constraints = RigidbodyConstraints.FreezeRotationZ;
@@ -78,6 +78,7 @@ namespace BikeSystem.controller
         AccelBase();
       }
       else{
+        this.limitBike = serial.getVelocidade();
         SteerSerial();
         AccelSerial();
         
@@ -139,7 +140,7 @@ namespace BikeSystem.controller
 
     // Função que controla a bike por meio da entrada serial
     private void AccelSerial(){
-      ActualVelocity = serial.getVelocidade(); // Mantém a entrada vertical do teclado para acelerar ou frear
+      // ActualVelocity = serial.getVelocidade(); // Mantém a entrada vertical do teclado para acelerar ou frear
       if(ActualVelocity == 0){
         rearWheel.motorTorque = 0;
         rearWheel.brakeTorque = 300; // Aplica um torque de frenagem na roda traseira para desacelerar ou parar a bicicleta
@@ -163,53 +164,6 @@ namespace BikeSystem.controller
       int ActualVelocityInt = (int)ActualVelocity;
       serial.displayVelocidade.text = ActualVelocityInt.ToString();
     }
-
-    private void AccelTeste(){
-      float InputAccel;
-      if(serial.getVelocidade() > 0)
-        InputAccel = 1; // Obtém a entrada vertical do teclado para acelerar ou frear      
-      else
-        InputAccel = -1;
-      
-      // float InputAccel = serial.velocidade > 0 ? 1 : -1; // (Comentado) Se a velocidade recebida da serial for maior que 0, InputAccel será 1; caso contrário, será -1.
-
-      if (InputAccel <= -0.2f) // Se a entrada vertical for menor ou igual a -0.2f (pressionando a tecla "S" ou indicando desaceleração pela serial)
-      {
-        rearWheel.motorTorque = InputAccel * (movementForce - (movementForce / 4)); // Aplica um torque de motor para frear gradualmente a roda traseira
-      }
-      else // Caso contrário
-      {
-        if (useLimit) // Se o uso de limite estiver ativado (useLimit é verdadeiro)
-        {
-          if (ActualVelocity < limitBike) // Se a velocidade atual for menor que o limite configurado (limitBike)
-          {
-            rearWheel.motorTorque = InputAccel * movementForce; // Aplica um torque de motor para acelerar a roda traseira
-          }
-          else // Caso contrário (velocidade atual é maior ou igual ao limite)
-          {
-            rearWheel.motorTorque = 0; // Define o torque de motor como zero para manter a velocidade constante (bicicleta não acelera além do limite)
-          }
-        }
-        else // Se o uso de limite não estiver ativado (useLimit é falso)
-        {
-          rearWheel.motorTorque = InputAccel * movementForce; // Aplica um torque de motor para acelerar a roda traseira sem restrições de limite
-        }
-      }
-      ActualVelocity = (rigidbody.velocity.magnitude / 5) * 15; // Calcula a velocidade atual da bicicleta com base na magnitude da velocidade do Rigidbody
-
-      if (InputAccel == 0 || (rearWheel.rpm > 5 && InputAccel <= -0.2f)) // Se a entrada vertical for igual a zero ou (a rotação da roda traseira for maior que 5 e a entrada vertical for menor ou igual a -0.2f)
-      {
-        rearWheel.brakeTorque = 25; // Aplica um torque de frenagem na roda traseira para desacelerar ou parar a bicicleta
-      }
-      else{ 
-        rearWheel.brakeTorque = 0; // Define o torque de frenagem como zero para liberar a roda traseira e permitir aceleração
-      }
-      int ActualVelocityInt = (int)ActualVelocity;
-      serial.displayVelocidade.text = ActualVelocityInt.ToString();
- 
-    }
-
-
 
     float valueToFix = 0;
     [HideInInspector] public float smoothSteerR;

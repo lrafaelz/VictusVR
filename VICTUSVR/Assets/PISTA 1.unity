@@ -87488,6 +87488,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 5960135738036356943}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &224685596923111293 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114106868568360274, guid: a91ad72e163ff3640bacf6e87ce78f67,
+    type: 3}
+  m_PrefabInstance: {fileID: 5960135738036356943}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52d64d9b740ea794aa9c0676698681bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &916754853057724812 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 916754853037923334, guid: f52d83ed8a74c28419b9a02197db75db,
@@ -88094,6 +88106,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4734777275406423226, guid: 578e9ad296b316b4a8904ba31c196a14,
         type: 3}
+    - target: {fileID: 7214769781358474894, guid: f60e305d5a7e4224abb8a10d5248b784,
+        type: 3}
+      propertyPath: serial
+      value: 
+      objectReference: {fileID: 224685596923111293}
+    - target: {fileID: 7214769781358474894, guid: f60e305d5a7e4224abb8a10d5248b784,
+        type: 3}
+      propertyPath: useSerial
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f60e305d5a7e4224abb8a10d5248b784, type: 3}
 --- !u!1 &2618116083061392220

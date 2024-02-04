@@ -1,10 +1,11 @@
 // #include <String.h>
 // variables to show data
-int BPM, EMG, vel;
+int BPM, EMG, vel, dist, counter;
 char texto[60];
 char tex[24];
 char tex1[24];
 char tex2[24];
+char tex3[24];
 
 // variables to catch sensors information
 const int pinX = A3;
@@ -29,9 +30,14 @@ void loop(){
   potentiometer = map(potentiometer,0,1023,1,100);
   
   BPM = map(potentiometer, 1, 100, 50, 170);   
-  vel = map(potentiometer, 1, 100, 0 , 20);
+  vel = map(potentiometer, 1, 100, 0 , 30);
   EMG = map(potentiometer, 1, 100, 300, 500);
   outputValueX = map(valueX, 0, 1023, 0, 255);
+
+  if(counter > 20 && vel != 0){
+    dist++;
+    counter = 0;
+  }
 
   sprintf(texto, "%d", BPM);
   strcat(texto, "#");
@@ -44,13 +50,9 @@ void loop(){
   sprintf(tex2, "%d", outputValueX);
   strcat(texto, tex2);
   strcat(texto, "#");
-  strcat(texto, "3000");
-  // strcat(texto, "\n");
-  // Serial.print(BPM);
-  // Serial.print("#");
-  // Serial.print(vel);
-  // Serial.print("#");
-  // Serial.println(EMG);
+  sprintf(tex3, "%d", dist);
+  strcat(texto, tex3);
   Serial.println(texto);
   delay(30);
+  counter++;
 } //end loop
