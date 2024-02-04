@@ -461,26 +461,35 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="GLTFSerialization">
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Assets\Sketchfab For Unity\Dependencies\Libraries\GLTFSerialization.dll</HintPath>
+    </Reference>
+    <Reference Include="SketchfabPlugin">
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Assets\Sketchfab For Unity\Dependencies\Libraries\SketchfabPlugin.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.1.0\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.1.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="EasyRoads3Dv3">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Assets\EasyRoads3D\lib\EasyRoads3Dv3.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Assets\EasyRoads3D\lib\EasyRoads3Dv3.dll</HintPath>
     </Reference>
     <Reference Include="DelaunayER">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Assets\EasyRoads3D\lib\DelaunayER.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Assets\EasyRoads3D\lib\DelaunayER.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\PackageCache\com.unity.analytics@3.6.12\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\PackageCache\com.unity.analytics@3.6.12\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Editor.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip.Unity">
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Assets\Sketchfab For Unity\Dependencies\Libraries\Ionic.Zip.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -858,130 +867,130 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="Purchasing.Common">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Purchasing.Common.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Purchasing.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEngine.Purchasing.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.SecurityStub">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Analytics">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Analytics.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.Codeless">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Sysroot.Linux_x86_64">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Toolchain.Linux-x86_64">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Toolchain.Linux-x86_64.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Toolchain.Linux-x86_64.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mediation">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Mediation.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Mediation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.SecurityCore">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.Stores">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.SysrootPackage.Editor">
-        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS PROJECT\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
+        <HintPath>C:\Users\vitor\OneDrive\Área de Trabalho\VICTUS\VictusVR\VICTUSVR\Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
