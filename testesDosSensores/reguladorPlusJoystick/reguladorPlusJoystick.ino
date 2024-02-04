@@ -53,6 +53,6 @@ void loop(){
   sprintf(tex3, "%d", dist);
   strcat(texto, tex3);
   Serial.println(texto);
-  delay(30);
+  delay(25);
   counter++;
 } //end loop

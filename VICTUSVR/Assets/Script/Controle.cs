@@ -82,13 +82,13 @@ public class Controle : MonoBehaviour {
 				// bike.Pause ();
 				// musica.Pause ();
 					//******INSTANTIATE OS SCORES
-				getArrayValues();
+				if(this.BMXScript.useSerial == 1)
+					getArrayValues();
 				if(once == 0)
 					this.SaveToJson();
 				once++;
 			} 
 			else {
-				StartCoroutine(wait(5f));
 				tempo += Time.deltaTime;
 				tempoMinutos = ((int)tempo / 60) ;
 				tempoSegundos = (int)tempo % 60;
@@ -105,6 +105,7 @@ public class Controle : MonoBehaviour {
 
 				}
 				else{
+					StartCoroutine(wait(5f));
 					string[] valores = serial.ReadLine().Split ('#'); // separador de valores
 					// Debug.Log("Valores" + "#"+valores[0] +"#"+ valores[1] +"#"+ valores[2] + "#" + valores[3] );
 					while(valores.Length < 5){ // to avoid errors
