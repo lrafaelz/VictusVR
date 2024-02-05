@@ -105,6 +105,6 @@ void loop(){
   // Serial.print();
   // Serial.print("#");
   // Serial.println();
-  delay(30);
+  delay(40);
   Serial.flush();
 }

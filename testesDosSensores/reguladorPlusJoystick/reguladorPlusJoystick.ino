@@ -50,6 +50,5 @@ void loop(){
   // Serial.print("#");
   // Serial.println(EMG);
   Serial.println(texto);
-  delay(25);
-  counter++;
+  delay(30);
 } //end loop

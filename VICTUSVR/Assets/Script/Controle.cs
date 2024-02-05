@@ -71,11 +71,6 @@ public class Controle : MonoBehaviour {
 				bike.Pause ();
 				musica.Pause ();
 					//******INSTANTIATE OS SCORES
-				if(this.BMXScript.useSerial == 1)
-					getArrayValues();
-				if(once == 0)
-					this.SaveToJson();
-				once++;
 			} 
 			else {
 				tempo += Time.deltaTime;
@@ -91,7 +86,6 @@ public class Controle : MonoBehaviour {
 					this.displayVelocidade.text = this.velInt.ToString();
 				}
 				else{
-					StartCoroutine(wait(5f));
 					string[] valores = serial.ReadLine().Split ('#'); // separador de valores
 					// Debug.Log("Valores" + "#"+valores[0] +"#"+ valores[1] +"#"+ valores[2] );
 					while(valores.Length < 4){ // to avoid errors
