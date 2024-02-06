@@ -88,6 +88,8 @@ public class Controle : MonoBehaviour {
 				once++;
 			} 
 			else {
+				string scenaAtual = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+				Debug.Log("Scena Atual: " + scenaAtual);
 				StartCoroutine(wait(5f));
 				tempo += Time.deltaTime;
 				tempoMinutos = ((int)tempo / 60) ;

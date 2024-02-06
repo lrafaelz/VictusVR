@@ -154,6 +154,10 @@ namespace BikeSystem.controller
           }
           else {// Caso contrário (velocidade atual é maior ou igual ao limite)
             rearWheel.motorTorque = 0; // Define o torque de motor como zero para manter a velocidade constante (bicicleta não acelera além do limite)
+            // rearWheel.brakeTorque = 100; // Aplica um torque de frenagem na roda traseira para desacelerar ou parar a bicicleta
+          }
+          if(limitBike == 0){
+            rearWheel.brakeTorque = 300; 
           }
         }
         else{
@@ -331,4 +335,3 @@ namespace BikeSystem.controller
   }
 
 }
-

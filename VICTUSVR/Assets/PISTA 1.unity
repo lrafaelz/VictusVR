@@ -19375,13 +19375,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540098998}
   m_LocalRotation: {x: -0.04640666, y: -0.06989456, z: -0.00889646, w: 0.9964347}
-<<<<<<< HEAD
   m_LocalPosition: {x: 374.1616, y: -0.3175249, z: 175.68501}
   m_LocalScale: {x: 1, y: 1, z: 1}
-=======
-  m_LocalPosition: {x: 374.228, y: -0.26370525, z: 175.21973}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
->>>>>>> 861d430ca803a212389a21f15e7b82be84fb1847
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -26297,7 +26292,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744783802}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
 --- !u!1 &746759605 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1422416687710894, guid: a91ad72e163ff3640bacf6e87ce78f67,
@@ -26342,8 +26336,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 746759605}
   m_CullTransparentMesh: 1
-=======
->>>>>>> 861d430ca803a212389a21f15e7b82be84fb1847
 --- !u!1 &749209379
 GameObject:
   m_ObjectHideFlags: 0
@@ -32754,15 +32746,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917772960}
-<<<<<<< HEAD
-  m_LocalRotation: {x: 0.102264985, y: 0.4665809, z: 0.054415654, w: -0.8768598}
-  m_LocalPosition: {x: 392.38202, y: -12.489696, z: 170.53029}
+  m_LocalRotation: {x: -0.24631847, y: 0.44361547, z: 0.12823364, w: 0.8521084}
+  m_LocalPosition: {x: 369.00525, y: -0.88717365, z: 176.29668}
   m_LocalScale: {x: 1, y: 1, z: 1}
-=======
-  m_LocalRotation: {x: -0.047380153, y: 0.008039762, z: 0.0003329148, w: 0.99884456}
-  m_LocalPosition: {x: 675.3433, y: -398.01495, z: -897.1993}
-  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 0.99999994}
->>>>>>> 861d430ca803a212389a21f15e7b82be84fb1847
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -89129,7 +89115,6 @@ PrefabInstance:
       propertyPath: trackWaypoints
       value: 
       objectReference: {fileID: 4398688588028069127}
-<<<<<<< HEAD
     - target: {fileID: 114106868568360274, guid: a91ad72e163ff3640bacf6e87ce78f67,
         type: 3}
       propertyPath: displayDistance
@@ -89160,8 +89145,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-=======
->>>>>>> 861d430ca803a212389a21f15e7b82be84fb1847
     - target: {fileID: 224685596659971762, guid: a91ad72e163ff3640bacf6e87ce78f67,
         type: 3}
       propertyPath: m_Pivot.x
