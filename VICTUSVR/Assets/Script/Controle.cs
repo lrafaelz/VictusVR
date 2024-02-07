@@ -23,7 +23,7 @@ public class Controle : MonoBehaviour {
 	public NavMeshAgent navmesh;
 	public GameObject player;
 	public Text tempoFim;
-	public GameObject entrada, highscoreTable, BMXBike;
+	public GameObject entrada, BMXBike, endMenu;
 	public AudioSource bike, musica;
 	public GameObject InputField;
 	Thread IOThread = new Thread (DataThread);
@@ -78,14 +78,15 @@ public class Controle : MonoBehaviour {
 			//fim da partida
 				displayScore.text = "Acabou a sessão!";
 				Time.timeScale = 0;
-				highscoreTable.SetActive (true);
-				// bike.Pause ();
-				// musica.Pause ();
-					//******INSTANTIATE OS SCORES
-				getArrayValues();
+				//getArrayValues();
 				if(once == 0)
 					this.SaveToJson();
 				once++;
+				endMenu.SetActive (true);
+				// bike.Pause ();
+				// musica.Pause ();
+					//******INSTANTIATE OS SCORES
+				
 			} 
 			else {
 				string scenaAtual = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;

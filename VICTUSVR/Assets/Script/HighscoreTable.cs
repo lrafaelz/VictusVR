@@ -23,6 +23,7 @@ public class HighscoreTable : MonoBehaviour {
     private List<Transform> highscoreEntryTransformList;
 
     private void Awake() {
+    
         entryContainer = transform.Find("highscoreEntryContainer");
         entryTemplate = entryContainer.Find("highscoreEntryTemplate");
 
@@ -43,6 +44,7 @@ public class HighscoreTable : MonoBehaviour {
             // Reload
             jsonString = PlayerPrefs.GetString("highscoreTable");
             highscores = JsonUtility.FromJson<Highscores>(jsonString);
+            
         }
 
         // Sort entry list by Score
@@ -65,8 +67,11 @@ public class HighscoreTable : MonoBehaviour {
             CreateHighscoreEntryTransform(highscoreEntry, entryContainer, highscoreEntryTransformList);
             counter++;
         }
+        
     }
-
+    public void aparecer(){
+    gameObject.SetActive (true);
+    }
     private void CreateHighscoreEntryTransform(HighscoreEntry highscoreEntry, Transform container, List<Transform> transformList) {
         float templateHeight = 31f;
         Transform entryTransform = Instantiate(entryTemplate, container);

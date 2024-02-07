@@ -385,6 +385,7 @@
 "Assets/Script/Controle.cs"
 "Assets/Script/ControlOfIn.cs"
 "Assets/Script/DriverScript.cs"
+"Assets/Script/EndMenu.cs"
 "Assets/Script/GameHandler.cs"
 "Assets/Script/GerenciadordoGame.cs"
 "Assets/Script/HighscoreTable.cs"

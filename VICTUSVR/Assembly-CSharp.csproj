@@ -86,6 +86,7 @@
      <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIElement.cs" />
      <Compile Include="Assets\Script\AudioController.cs" />
      <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Managers\UIMenuManager.cs" />
+     <Compile Include="Assets\Script\EndMenu.cs" />
      <Compile Include="Assets\Script\Barreira.cs" />
      <Compile Include="Assets\Script\PlayerInside.cs" />
      <Compile Include="Assets\Sketchfab For Unity\Scripts\Resizer.cs" />

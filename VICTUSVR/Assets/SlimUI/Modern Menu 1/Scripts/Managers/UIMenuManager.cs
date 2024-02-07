@@ -139,10 +139,6 @@ namespace SlimUI.ModernMenu{
 			mainMenu.SetActive(true);
 		}
 
-		public void LoadMainMenu()
-    {
-        SceneManager.LoadScene("MainMenu");
-    }
 
 		public void LoadScene(string scene){
 			if(scene != ""){
