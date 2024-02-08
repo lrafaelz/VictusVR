@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638430046978087622
-    m_Hash: 2956353502
+      ticks: 638430057348610748
+    m_Hash: 3269486337
   m_LockFileStatus:
     m_FilePath: C:/subDesktop/Unipampa/Projects/VictusVR/VICTUSVR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638430046978147703
-    m_Hash: 365546717
+      ticks: 638430057348620745
+    m_Hash: 3288860980
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

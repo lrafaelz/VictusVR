@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PISTA 1.unity
     guid: 922c1eb3cb2492e43a7e6b44735da0cd
-  - enabled: 0
+  - enabled: 1
     path: Assets/PISTA 2.unity
     guid: 7ee99627828841542be12db6affac2f8
   - enabled: 0

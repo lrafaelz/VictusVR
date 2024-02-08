@@ -16,6 +16,7 @@ public class Controle : MonoBehaviour {
 	BikeSystem.controller.MotorcycleController BMXScript;
 	private static SerialPort serial;
 
+	public string date;
 	public string pacientName;
 	public Text displayContagem, displayBatimentos, displayVelocidade, displayEmg, displayScore, displayDistance;
 	public float tempoSegundos, tempoMinutos, tempo=0.0f;
@@ -39,9 +40,13 @@ public class Controle : MonoBehaviour {
 	public int[] velArray, BPMArray, EMGArray;
 	private int once = 0;
 	private bool onceCoroutine = false;
+
+	private DatabaseManager databaseManager;
 	void Awake(){
 		BMXScript = BMXBike.GetComponent<BikeSystem.controller.MotorcycleController> ();
 		this.pacientName = "Rafael";
+		databaseManager = new DatabaseManager();
+
 	}
 
 	private static void DataThread(){
@@ -79,12 +84,16 @@ public class Controle : MonoBehaviour {
 				displayScore.text = "Acabou a sessão!";
 				Time.timeScale = 0;
 				highscoreTable.SetActive (true);
+				if(BMXScript.useSerial == 1)
+					getArrayValues();
+				
 				// bike.Pause ();
 				// musica.Pause ();
 					//******INSTANTIATE OS SCORES
-				getArrayValues();
-				if(once == 0)
+				if(once == 0){
 					this.SaveToJson();
+					databaseManager.saveFirebaseData(date, pacientName, distanceTravelled, (int)fimDaPartida, score, velArray, BPMArray, EMGArray);
+				}
 				once++;
 			} 
 			else {
@@ -188,7 +197,8 @@ public class Controle : MonoBehaviour {
 
 	public void SaveToJson(){
         SessionData data = new SessionData();
-        data.date = DateTime.Now.ToString();
+        date = DateTime.Now.ToString();
+		data.date = date;
         // Debug.Log("timestamp: " + data.date);
         Debug.Log("Pacient Name: " + this.pacientName);
         data.pacientName = "Rafael";
