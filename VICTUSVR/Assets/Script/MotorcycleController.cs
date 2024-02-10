@@ -40,7 +40,7 @@ namespace BikeSystem.controller
     private void Awake()
     {
       // print("bora anda de bike");
-      // useSerial = PlayerPrefs.GetInt("WASD");
+      // useSerial = PlayerPrefs.GetInt("WASD"); descomentar para gerar a versão buildada
       audio = GetComponent<AudioSource>();
       rigidbody = GetComponent<Rigidbody>();
       rigidbody.constraints = RigidbodyConstraints.FreezeRotationZ;

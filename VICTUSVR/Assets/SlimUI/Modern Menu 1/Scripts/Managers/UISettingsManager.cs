@@ -79,5 +79,9 @@ namespace SlimUI.ModernMenu{
 		public void Pista1(){
 			SceneManager.LoadScene("PISTA 1", LoadSceneMode.Single);
 		}
+
+		public void Pista2(){
+			SceneManager.LoadScene("PISTA 2", LoadSceneMode.Single);
+		}
 	}
 }
