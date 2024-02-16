@@ -32215,8 +32215,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917772960}
-  m_LocalRotation: {x: -0.16377668, y: 0.64460576, z: 0.14407595, w: 0.7327365}
-  m_LocalPosition: {x: -23.875874, y: -11.725953, z: -17.95301}
+  m_LocalRotation: {x: -0.11569616, y: 0.08630224, z: 0.010089653, w: 0.9894769}
+  m_LocalPosition: {x: 498.0176, y: -433.23877, z: -485.18924}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -86903,7 +86903,7 @@ PrefabInstance:
       objectReference: {fileID: 224685596923111293}
     - target: {fileID: 7214769781358474894, guid: f60e305d5a7e4224abb8a10d5248b784, type: 3}
       propertyPath: useSerial
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f60e305d5a7e4224abb8a10d5248b784, type: 3}
