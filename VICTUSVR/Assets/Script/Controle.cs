@@ -137,6 +137,13 @@ public class Controle : MonoBehaviour {
 		}
 	}
 
+
+	 
+	
+
+
+
+
 	public int getDirecao(){
 		return direcao;
 	}	

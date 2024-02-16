@@ -24,4 +24,10 @@ public class EndMenu : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void ReturnendMenu()
+    {
+        highscorePanel.SetActive(false);
+        endmenu.SetActive(true);  
+    }
 }
