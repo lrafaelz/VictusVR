@@ -68,12 +68,17 @@ namespace SlimUI.ModernMenu{
 		}
 
 		public void setControls(int val){
+			
 			if (val == 0){
+				Debug.Log("Sensoriamento");
 				PlayerPrefs.SetInt("WASD", 1);
 			}
-			else if (val == 1){
+			if (val == 1){
+				Debug.Log("WASD");
 				PlayerPrefs.SetInt("WASD", 0);
 			}
+
+			Debug.Log(PlayerPrefs.GetInt("WASD"));
 		}
 		
 		public void Pista1(){

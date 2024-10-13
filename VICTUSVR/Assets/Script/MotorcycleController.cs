@@ -40,7 +40,8 @@ namespace BikeSystem.controller
     private void Awake()
     {
       // print("bora anda de bike");
-      // useSerial = PlayerPrefs.GetInt("WASD"); descomentar para gerar a versão buildada
+      useSerial = PlayerPrefs.GetInt("WASD"); // descomentar para gerar a versão buildada
+      Debug.Log("useSerial: " + useSerial);
       audio = GetComponent<AudioSource>();
       rigidbody = GetComponent<Rigidbody>();
       rigidbody.constraints = RigidbodyConstraints.FreezeRotationZ;
@@ -78,7 +79,7 @@ namespace BikeSystem.controller
         AccelBase();
       }
       else{
-        this.limitBike = serial.getVelocidade();
+        this.limitBike = serial.getVelocidade() + 5;
         SteerSerial();
         AccelSerial();
         
@@ -142,8 +143,8 @@ namespace BikeSystem.controller
     private void AccelSerial(){
       // ActualVelocity = serial.getVelocidade(); // Mantém a entrada vertical do teclado para acelerar ou frear
       if(ActualVelocity == 0){
-        rearWheel.motorTorque = 0;
-        rearWheel.brakeTorque = 300; // Aplica um torque de frenagem na roda traseira para desacelerar ou parar a bicicleta
+        rearWheel.motorTorque = 100;
+        rearWheel.brakeTorque = 0; // Aplica um torque de frenagem na roda traseira para desacelerar ou parar a bicicleta
 
       }
       else{

@@ -32,7 +32,7 @@ ISR(PCINT0_vect){
   sei();
 }
 
-float distance(){
+float getDistance(){
   return i*distance;
 }
 

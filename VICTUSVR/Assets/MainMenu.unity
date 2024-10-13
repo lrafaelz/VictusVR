@@ -5897,11 +5897,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platform: 0
-  difficultynormaltext: {fileID: 353392371608568425}
-  difficultynormaltextLINE: {fileID: 353259667733629219}
-  difficultyhardcoretext: {fileID: 352565566702288259}
-  difficultyhardcoretextLINE: {fileID: 353520915626659005}
-  musicSlider: {fileID: 352423758890326273}
+  difficultynormaltext: {fileID: 0}
+  difficultynormaltextLINE: {fileID: 0}
+  difficultyhardcoretext: {fileID: 0}
+  difficultyhardcoretextLINE: {fileID: 0}
+  musicSlider: {fileID: 0}
 --- !u!114 &393754135975531471
 MonoBehaviour:
   m_ObjectHideFlags: 0

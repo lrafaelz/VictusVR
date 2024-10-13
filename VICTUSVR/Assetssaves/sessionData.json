@@ -1,25 +1,12 @@
 {
-    "date": "2/10/2024 4:40:05 PM",
+    "date": "10/13/2024 1:24:06 PM",
     "pacientName": "Rafael",
-    "distanceTravelled": 635.0,
-    "sessionTime": 18,
-    "score": 200,
+    "distanceTravelled": 3436.734619140625,
+    "sessionTime": 120,
+    "score": 4950,
     "velocity": [
-        0,
-        10,
-        15,
-        17
+        19
     ],
-    "BPMSensor": [
-        50,
-        90,
-        111,
-        131
-    ],
-    "EMGSensor": [
-        300,
-        366,
-        403,
-        435
-    ]
+    "BPMSensor": [],
+    "EMGSensor": []
 }

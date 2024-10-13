@@ -58,7 +58,7 @@ int i = 0; // value wich counts the number of times the magnet has passed at the
 // for calculate the distance and velocity
 #define PI 3.1415926535897932384626433832795
 #define updateRate 1000 // time between each amount of time that we capture the magnet presence in milliseconds (just values multiple of 10)
-#define radius 0.37 // m
+#define radius 0.5 // m
 int currentI;
 float distance = 2*PI*radius; // m
 float lstTime; // last time that the sensor notice the magnet
@@ -101,11 +101,12 @@ void loop(){
   sprintf(tex2, "%d", outputValueX);
   strcat(texto, tex2);
   strcat(texto, "#");
-  sprintf(tex3, "%d", distance());
-  strcat(texto, tex3)
-  
+  sprintf(tex3, "%d", int(getDistance()));
+  strcat(texto, tex3);
+  // BPM#VEL#EMG#DIR#DIST
   
   Serial.println(texto);
+  // Serial.println(getDistance());
   // Serial.print();
   // Serial.print("#");
   // Serial.print();

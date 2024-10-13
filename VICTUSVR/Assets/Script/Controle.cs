@@ -44,7 +44,7 @@ public class Controle : MonoBehaviour {
 	private DatabaseManager databaseManager;
 	void Awake(){
 		BMXScript = BMXBike.GetComponent<BikeSystem.controller.MotorcycleController> ();
-		this.pacientName = "Rafael";
+		this.pacientName = "Luis";
 		databaseManager = new DatabaseManager();
 
 	}
