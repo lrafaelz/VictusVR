@@ -25,7 +25,7 @@ public class Controle : MonoBehaviour
   public NavMeshAgent navmesh;
   public GameObject player;
   public Text tempoFim;
-  public GameObject entrada, BMXBike, endMenu;
+  public GameObject entrada, highscoreTable, BMXBike, endMenu;
   public AudioSource bike, musica;
   public GameObject InputField;
   Thread IOThread = new Thread(DataThread);
