@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.83950335, g: 0.9066415, b: 0.9759219, a: 1}
+  m_IndirectSpecularColor: {r: 0.83948886, g: 0.9066363, b: 0.9759205, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -32215,8 +32215,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917772960}
-  m_LocalRotation: {x: -0.11569616, y: 0.08630224, z: 0.010089653, w: 0.9894769}
-  m_LocalPosition: {x: 498.0176, y: -433.23877, z: -485.18924}
+  m_LocalRotation: {x: -0.13674149, y: 0.056710478, z: 0.007848533, w: 0.988951}
+  m_LocalPosition: {x: 300.73776, y: -386.08978, z: -1019.81384}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40694,6 +40694,11 @@ PrefabInstance:
     - target: {fileID: 568505400271790641, guid: bcb75ce40bb1639408c28cdc5d27dde0, type: 3}
       propertyPath: m_Name
       value: HighscoreTable
+      objectReference: {fileID: 0}
+    - target: {fileID: 568505400271790641, guid: bcb75ce40bb1639408c28cdc5d27dde0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcb75ce40bb1639408c28cdc5d27dde0, type: 3}
@@ -87905,11 +87910,13 @@ PrefabInstance:
       propertyPath: BMXBike
       value: 
       objectReference: {fileID: 4570476056851627008}
-    - target: {fileID: 114106868568360274, guid: a91ad72e163ff3640bacf6e87ce78f67, type: 3}
-      propertyPath: pacientName
-      value: Rafael
-      objectReference: {fileID: 0}
-    - target: {fileID: 114106868568360274, guid: a91ad72e163ff3640bacf6e87ce78f67, type: 3}
+    - target: {fileID: 114106868568360274, guid: a91ad72e163ff3640bacf6e87ce78f67,
+        type: 3}
+      propertyPath: endMenu
+      value: 
+      objectReference: {fileID: 289044129}
+    - target: {fileID: 114106868568360274, guid: a91ad72e163ff3640bacf6e87ce78f67,
+        type: 3}
       propertyPath: highscoreTable
       value: 
       objectReference: {fileID: 289044129}
